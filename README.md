@@ -10,9 +10,16 @@ Cuaderno del profesor para organizar grupos y alumnado, actividades, calificacio
 
 [Descargar la última versión para Mac](https://github.com/JLPalmes/mi-cuaderno/releases/latest).
 
-La versión publicada es **Mi Cuaderno 2.0.0 para Mac con Apple Silicon (M1 o posterior)**. Descarga `Mi-Cuaderno-2.0.0-arm64.dmg` en el apartado **Assets / Archivos** de la publicación. No es una versión para Mac Intel.
+La versión publicada es **Mi Cuaderno 2.0.1 para Mac con Apple Silicon (M1 o posterior)**. Descarga `Mi-Cuaderno-2.0.1-arm64.dmg` en el apartado **Assets / Archivos** de la publicación. No es una versión para Mac Intel.
 
 Windows está pendiente de pruebas de instalación. Todavía no se publica un instalador para ese sistema.
+
+## Novedades de 2.0.1
+
+- Medias coherentes al cambiar ponderaciones, mover o borrar actividades y deshacer.
+- Rechazo de valores de calificación no válidos.
+- Las instalaciones nuevas comienzan sin alumnado de ejemplo. Los cuadernos existentes se conservan.
+- Reorganización interna de la interfaz y de los cálculos, manteniendo Pincel y las copias existentes.
 
 ## Aviso de seguridad de macOS
 
@@ -36,7 +43,7 @@ Los cuadernos se guardan en el dispositivo. Esta versión no sincroniza automát
 
 Copyright (C) 2026 Juan Luis Palmés Martín. Software libre bajo **GNU AGPL versión 3 exclusivamente (AGPL-3.0-only)**, sin garantía en los términos de la licencia. Consulta [LICENSE](LICENSE), [COPYRIGHT.md](COPYRIGHT.md) y [THIRD_PARTY_NOTICES.txt](THIRD_PARTY_NOTICES.txt). Las bibliotecas de terceros conservan sus propias licencias.
 
-Este repositorio es el canal público de distribución. **El código completo de cada versión se adjunta a su publicación** en el archivo `Mi-Cuaderno-2.0.0-codigo-fuente.tar.gz`, con los recursos, scripts, archivos de bloqueo y fuentes de las dependencias incorporadas. Dentro encontrarás `SOURCE_CODE.md` con las instrucciones de compilación y `SOURCE-MANIFEST.json` para identificar los archivos utilizados.
+Este repositorio es el canal público de distribución. **El código completo de cada versión se adjunta a su publicación** en el archivo `Mi-Cuaderno-2.0.1-codigo-fuente.tar.gz`, con los recursos, scripts, archivos de bloqueo y fuentes de las dependencias incorporadas. Dentro encontrarás `SOURCE_CODE.md` con las instrucciones de compilación y `SOURCE-MANIFEST.json` para identificar los archivos utilizados.
 
 También puedes guardar esas mismas fuentes sin conexión desde **Ayuda → Licencia y código fuente → Guardar código fuente** en la aplicación.
 
