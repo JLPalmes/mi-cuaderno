@@ -2034,9 +2034,9 @@ Aviso 176: lib-vendor/d3-timer/LICENSE
 Aviso 210: lib-vendor/d3-voronoi/LICENSE
 Aviso 186: lib-vendor/internmap/LICENSE
 ========================================================================
-npm: xlsx 0.18.5
+npm: xlsx 0.20.3
 Licencia: Apache-2.0
-Origen: git://github.com/SheetJS/sheetjs.git
+Origen: https://git.sheetjs.com/SheetJS/sheetjs
 Autores declarados: "sheetjs"
 Aviso 211: dist/LICENSE
 Aviso 211: LICENSE
