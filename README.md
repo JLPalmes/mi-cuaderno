@@ -8,11 +8,13 @@ Cuaderno del profesor para organizar grupos y alumnado, actividades, calificacio
 
 ## Descargar
 
-[Descargar la última versión para Mac](https://github.com/JLPalmes/mi-cuaderno/releases/latest).
+**Mi Cuaderno 2.0.2 está disponible para Windows y Mac:**
 
-La versión publicada es **Mi Cuaderno 2.0.2 para Mac con Apple Silicon (M1 o posterior)**. Descarga `Mi-Cuaderno-2.0.2-arm64.dmg` en el apartado **Assets / Archivos** de la publicación. No es una versión para Mac Intel.
+- [Descargar para Windows x64 (.exe)](https://github.com/JLPalmes/mi-cuaderno/releases/download/v2.0.2/Mi-Cuaderno-2.0.2-Windows-x64-Setup.exe).
+- [Descargar para Mac con Apple Silicon (.dmg)](https://github.com/JLPalmes/mi-cuaderno/releases/download/v2.0.2/Mi-Cuaderno-2.0.2-arm64.dmg). Requiere M1 o posterior; no es compatible con Mac Intel.
+- [Ver todos los archivos, fuentes y licencias](https://github.com/JLPalmes/mi-cuaderno/releases/latest).
 
-Windows está pendiente de pruebas de instalación. Todavía no se publica un instalador para ese sistema.
+El instalador de Windows no tiene firma de editor. Se ha probado su instalación y la importación de un cuaderno procedente de Mac.
 
 ## Novedades de 2.0.2
 
@@ -31,8 +33,8 @@ Consulta las [instrucciones oficiales de Apple](https://support.apple.com/es-es/
 ## Instalar
 
 1. Si ya utilizas Mi Cuaderno, exporta y conserva una copia de tus datos antes de actualizar.
-2. Abre el archivo DMG y arrastra **Mi Cuaderno** a **Aplicaciones**.
-3. Abre la aplicación desde Aplicaciones. Ten presente el aviso de seguridad anterior.
+2. En Windows, ejecuta el instalador EXE. En Mac, abre el DMG y arrastra **Mi Cuaderno** a **Aplicaciones**.
+3. Abre Mi Cuaderno desde el menú Inicio en Windows o desde Aplicaciones en Mac.
 
 Si vienes de Electron 1.x, conserva su aplicación como respaldo y pasa tus datos exportando e importando una copia. Los cuadernos de ambas aplicaciones son independientes. La versión 2 conserva los datos del antiguo prototipo Tauri.
 
@@ -44,7 +46,7 @@ Los cuadernos se guardan en el dispositivo. Esta versión no sincroniza automát
 
 Copyright (C) 2026 Juan Luis Palmés Martín. Software libre bajo **GNU AGPL versión 3 exclusivamente (AGPL-3.0-only)**, sin garantía en los términos de la licencia. Consulta [LICENSE](LICENSE), [COPYRIGHT.md](COPYRIGHT.md) y [THIRD_PARTY_NOTICES.txt](THIRD_PARTY_NOTICES.txt). Las bibliotecas de terceros conservan sus propias licencias.
 
-Este repositorio es el canal público de distribución. **El código completo de cada versión se adjunta a su publicación** en el archivo `Mi-Cuaderno-2.0.2-codigo-fuente.tar.gz`, con los recursos, scripts, archivos de bloqueo y fuentes de las dependencias incorporadas. Dentro encontrarás `SOURCE_CODE.md` con las instrucciones de compilación y `SOURCE-MANIFEST.json` para identificar los archivos utilizados.
+Este repositorio es el canal público de distribución. **El código completo de cada versión se adjunta a su publicación** en `Mi-Cuaderno-2.0.2-codigo-fuente.tar.gz` para Mac y en `Mi-Cuaderno-2.0.2-Windows-fuentes-y-licencias.zip` para Windows, con los recursos, scripts, archivos de bloqueo y fuentes de las dependencias incorporadas. Dentro encontrarás `SOURCE_CODE.md` con las instrucciones de compilación y `SOURCE-MANIFEST.json` para identificar los archivos utilizados.
 
 También puedes guardar esas mismas fuentes sin conexión desde **Ayuda → Licencia y código fuente → Guardar código fuente** en la aplicación.
 
