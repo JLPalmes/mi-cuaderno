@@ -8,13 +8,20 @@ Cuaderno del profesor para organizar grupos y alumnado, actividades, calificacio
 
 ## Descargar
 
-**Mi Cuaderno 2.0.2 está disponible para Windows y Mac:**
+- **[Windows x64 — descargar Mi Cuaderno 2.0.4 (.exe)](https://github.com/JLPalmes/mi-cuaderno/releases/download/v2.0.4/Mi-Cuaderno-2.0.4-Windows-x64-Setup.exe)**.
+- **[Mac Apple Silicon — descargar Mi Cuaderno 2.0.2 (.dmg)](https://github.com/JLPalmes/mi-cuaderno/releases/download/v2.0.2/Mi-Cuaderno-2.0.2-arm64.dmg)**. Requiere M1 o posterior y macOS 11 o posterior; no es compatible con Mac Intel.
+- [Ver la publicación principal, fuentes y licencias](https://github.com/JLPalmes/mi-cuaderno/releases/latest).
 
-- [Descargar para Windows x64 (.exe)](https://github.com/JLPalmes/mi-cuaderno/releases/download/v2.0.2/Mi-Cuaderno-2.0.2-Windows-x64-Setup.exe).
-- [Descargar para Mac con Apple Silicon (.dmg)](https://github.com/JLPalmes/mi-cuaderno/releases/download/v2.0.2/Mi-Cuaderno-2.0.2-arm64.dmg). Requiere M1 o posterior; no es compatible con Mac Intel.
-- [Ver todos los archivos, fuentes y licencias](https://github.com/JLPalmes/mi-cuaderno/releases/latest).
+Windows está actualizado a **2.0.4**, con guardado SQLite y el cierre corregido y probado. Mac continúa en **2.0.2**; esta actualización no cambia su instalador ni incorpora todavía SQLite a esa compilación.
 
-El instalador de Windows no tiene firma de editor. Se ha probado su instalación y la importación de un cuaderno procedente de Mac.
+El instalador de Windows no tiene firma de editor. **Antes de actualizar, exporta una copia JSON externa y cierra la aplicación.** Si 2.0.3 no se cierra, exporta primero la copia y finaliza Mi Cuaderno desde el Administrador de tareas.
+
+## Novedades de Windows 2.0.4
+
+- Guardado local con transacciones SQLite y migración que conserva los datos originales.
+- Restauración con rescate y protección de cambios pendientes al cerrar.
+- Corrección del bloqueo al cerrar mediante la X y el menú Salir.
+- 263 pruebas automatizadas correctas. Las copias JSON se mantienen compatibles con Mac.
 
 ## Novedades de 2.0.2
 
@@ -40,14 +47,14 @@ Si vienes de Electron 1.x, conserva su aplicación como respaldo y pasa tus dato
 
 ## Datos y funcionamiento
 
-Los cuadernos se guardan en el dispositivo. Esta versión no sincroniza automáticamente los datos entre equipos. Permite importar alumnado, guardar y restaurar copias y exportar informes PDF.
+Los cuadernos se guardan en el dispositivo. Windows 2.0.4 utiliza SQLite; la copia JSON exportable sigue siendo el formato portátil entre versiones y equipos. Tras migrar, el almacenamiento antiguo se conserva como rescate inicial y deja de actualizarse. Esta versión no sincroniza automáticamente los datos entre equipos. Permite importar alumnado, guardar y restaurar copias y exportar informes PDF.
 
 ## Licencia y fuentes
 
 Copyright (C) 2026 Juan Luis Palmés Martín. Software libre bajo **GNU AGPL versión 3 exclusivamente (AGPL-3.0-only)**, sin garantía en los términos de la licencia. Consulta [LICENSE](LICENSE), [COPYRIGHT.md](COPYRIGHT.md) y [THIRD_PARTY_NOTICES.txt](THIRD_PARTY_NOTICES.txt). Las bibliotecas de terceros conservan sus propias licencias.
 
-Este repositorio es el canal público de distribución. **El código completo de cada versión se adjunta a su publicación** en `Mi-Cuaderno-2.0.2-codigo-fuente.tar.gz` para Mac y en `Mi-Cuaderno-2.0.2-Windows-fuentes-y-licencias.zip` para Windows, con los recursos, scripts, archivos de bloqueo y fuentes de las dependencias incorporadas. Dentro encontrarás `SOURCE_CODE.md` con las instrucciones de compilación y `SOURCE-MANIFEST.json` para identificar los archivos utilizados.
+Este repositorio es el canal público de distribución. **El código completo de cada versión se adjunta a su publicación** en `Mi-Cuaderno-2.0.2-codigo-fuente.tar.gz` para Mac (publicación 2.0.2) y en `Mi-Cuaderno-2.0.4-codigo-fuente.tar.gz` para Windows (publicación 2.0.4), con los recursos, scripts, archivos de bloqueo y fuentes de las dependencias incorporadas. Dentro encontrarás `SOURCE_CODE.md` con las instrucciones de compilación y `SOURCE-MANIFEST.json` para identificar los archivos utilizados.
 
 También puedes guardar esas mismas fuentes sin conexión desde **Ayuda → Licencia y código fuente → Guardar código fuente** en la aplicación.
 
-El archivo `SHA256SUMS.txt` permite comprobar la integridad de los archivos publicados. `manifest.json` identifica el archivo de fuentes y su revisión de base.
+El archivo `SHA256SUMS.txt` permite comprobar la integridad de los archivos publicados. `manifest-windows.json` en Windows y `manifest.json` en Mac identifican el archivo de fuentes y su revisión de base.
