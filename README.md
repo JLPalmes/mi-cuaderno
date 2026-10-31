@@ -8,23 +8,24 @@ Cuaderno del profesor para organizar grupos y alumnado, actividades, calificacio
 
 ## Descargar
 
-- **[Windows x64 — descargar Mi Cuaderno 2.0.8 (.exe)](https://github.com/JLPalmes/mi-cuaderno/releases/download/v2.0.8/Mi-Cuaderno-2.0.8-Windows-x64-Setup.exe)**.
+- **[Windows x64 — descargar Mi Cuaderno 2.0.9 (.exe)](https://github.com/JLPalmes/mi-cuaderno/releases/download/v2.0.9/Mi-Cuaderno-2.0.9-Windows-x64-Setup.exe)**.
 - **[Mac Apple Silicon — descargar Mi Cuaderno 2.0.2 (.dmg)](https://github.com/JLPalmes/mi-cuaderno/releases/download/v2.0.2/Mi-Cuaderno-2.0.2-arm64.dmg)**. Requiere M1 o posterior y macOS 11 o posterior; no es compatible con Mac Intel.
 - [Ver la publicación principal, fuentes y licencias](https://github.com/JLPalmes/mi-cuaderno/releases/latest).
 
-Windows está actualizado a **2.0.8**, con desviación típica por actividad, informe individual PDF y evaluación asociada a cada sesión, conservando SQLite y la protección del cierre. Mac continúa en **2.0.2**; esta actualización no cambia su instalador ni incorpora todavía SQLite a esa compilación.
+Windows está actualizado a **2.0.9**, con Rust como motor de resultados de evaluación, control de errores y reintento, conservando SQLite y las copias JSON. Mac continúa en **2.0.2**; esta actualización no cambia su instalador ni incorpora todavía SQLite a esa compilación.
 
 El instalador de Windows no tiene firma de editor. **Antes de actualizar, exporta una copia JSON externa y cierra la aplicación.** Si 2.0.3 no se cierra, exporta primero la copia y finaliza Mi Cuaderno desde el Administrador de tareas.
 
-## Novedades de Windows 2.0.8
+## Novedades de Windows 2.0.9
 
-- Desviación típica poblacional junto a la media de cada actividad, con ayuda accesible.
-- Acción «Informe del alumno» en su ficha: PDF local con actividades, resultados y resumen de asistencia, sin datos de compañeros.
-- El informe distingue la media del curso de la nota final manual de Pincel. Pincel se muestra sin decimales y, cuando falta, como «Sin introducir»; no se sustituye por la media.
-- Las sesiones nuevas permiten elegir su evaluación; las antiguas permanecen «Sin asignar» hasta revisión del profesor.
-- Conserva cálculos, SQLite transaccional, rescates, compatibilidad de copias JSON y protección del cierre.
-- 351 pruebas automatizadas correctas: 139 generales, 188 de interfaz y 24 Rust. TypeScript y lint completo correctos; corregidos los 13 diagnósticos anteriores en pruebas.
-- Pendiente la prueba manual de esta actualización en Windows, especialmente el guardado nativo del PDF. No se ha ejecutado el instalador durante su preparación.
+- Rust es el único motor de resultados de evaluación en Tauri: se retira el respaldo TypeScript de las pantallas y los informes nativos.
+- Espera máxima de 15 segundos y reintento manual. Si el cálculo no está disponible se muestra «—», sin ceros inventados ni resultados de otro grupo.
+- La edición y las copias siguen disponibles; la espera conserva el foco al escribir notas.
+- Los informes PDF necesitan un cálculo válido y gestionan errores sin anunciar éxitos falsos.
+- Conserva estadísticas, informe individual y evaluación de sesiones de la versión anterior. Se mantiene SQLite, formato JSON, identidad y ubicación de los datos.
+- Web/Electron y las pruebas de equivalencia mantienen TypeScript. Asistencia y actualización de históricos siguen en TypeScript; no se ha trasladado toda la lógica de negocio a Rust.
+- 416 pruebas correctas: 139 generales, 253 de interfaz y 24 Rust. TypeScript y lint completo correctos.
+- Pendiente la prueba manual de Windows 2.0.9, especialmente edición, reintento, cambio de grupo e informes. No se ejecuta el instalador durante su preparación.
 
 ## Novedades de 2.0.2
 
@@ -50,13 +51,13 @@ Si vienes de Electron 1.x, conserva su aplicación como respaldo y pasa tus dato
 
 ## Datos y funcionamiento
 
-Los cuadernos se guardan en el dispositivo. Windows 2.0.8 utiliza SQLite; la copia JSON exportable sigue siendo el formato portátil entre versiones y equipos. Tras migrar, el almacenamiento antiguo se conserva como rescate inicial y deja de actualizarse. Esta versión no sincroniza automáticamente los datos entre equipos. Permite importar alumnado, guardar y restaurar copias y exportar informes PDF.
+Los cuadernos se guardan en el dispositivo. Windows 2.0.9 utiliza SQLite; la copia JSON exportable sigue siendo el formato portátil entre versiones y equipos. Tras migrar, el almacenamiento antiguo se conserva como rescate inicial y deja de actualizarse. Esta versión no sincroniza automáticamente los datos entre equipos. Permite importar alumnado, guardar y restaurar copias y exportar informes PDF.
 
 ## Licencia y fuentes
 
 Copyright (C) 2026 Juan Luis Palmés Martín. Software libre bajo **GNU AGPL versión 3 exclusivamente (AGPL-3.0-only)**, sin garantía en los términos de la licencia. Consulta [LICENSE](LICENSE), [COPYRIGHT.md](COPYRIGHT.md) y [THIRD_PARTY_NOTICES.txt](THIRD_PARTY_NOTICES.txt). Las bibliotecas de terceros conservan sus propias licencias.
 
-Este repositorio es el canal público de distribución. **El código completo de cada versión se adjunta a su publicación** en `Mi-Cuaderno-2.0.2-codigo-fuente.tar.gz` para Mac (publicación 2.0.2) y en `Mi-Cuaderno-2.0.8-codigo-fuente.tar.gz` para Windows (publicación 2.0.8), con los recursos, scripts, archivos de bloqueo y fuentes de las dependencias incorporadas. Dentro encontrarás `SOURCE_CODE.md` con las instrucciones de compilación y `SOURCE-MANIFEST.json` para identificar los archivos utilizados.
+Este repositorio es el canal público de distribución. **El código completo de cada versión se adjunta a su publicación** en `Mi-Cuaderno-2.0.2-codigo-fuente.tar.gz` para Mac (publicación 2.0.2) y en `Mi-Cuaderno-2.0.9-codigo-fuente.tar.gz` para Windows (publicación 2.0.9), con los recursos, scripts, archivos de bloqueo y fuentes de las dependencias incorporadas. Dentro encontrarás `SOURCE_CODE.md` con las instrucciones de compilación y `SOURCE-MANIFEST.json` para identificar los archivos utilizados.
 
 También puedes guardar esas mismas fuentes sin conexión desde **Ayuda → Licencia y código fuente → Guardar código fuente** en la aplicación.
 
