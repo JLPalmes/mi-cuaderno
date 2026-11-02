@@ -8,30 +8,25 @@ Cuaderno del profesor para organizar grupos y alumnado, actividades, calificacio
 
 ## Descargar
 
-- **[Windows x64 — descargar Mi Cuaderno 2.3.1 (.exe)](https://github.com/JLPalmes/mi-cuaderno/releases/download/v2.3.1/Mi-Cuaderno-2.3.1-Windows-x64-Setup.exe)**.
+- **[Windows x64 — descargar Mi Cuaderno 2.4.1 (.exe)](https://github.com/JLPalmes/mi-cuaderno/releases/download/v2.4.1/Mi-Cuaderno-2.4.1-Windows-x64-Setup.exe)**.
 - **[Mac Apple Silicon — descargar Mi Cuaderno 2.0.2 (.dmg)](https://github.com/JLPalmes/mi-cuaderno/releases/download/v2.0.2/Mi-Cuaderno-2.0.2-arm64.dmg)**. Requiere M1 o posterior y macOS 11 o posterior; no es compatible con Mac Intel.
 - [Ver la publicación principal, fuentes y licencias](https://github.com/JLPalmes/mi-cuaderno/releases/latest).
 
-Windows está actualizado a **2.3.1**, con Pincel por evaluación, observaciones, recuperaciones y registros sin ponderación. Mac continúa en **2.0.2**, sin cambios. **Las nuevas copias JSON de formato 3 no pueden importarse en Mac 2.0.2 ni en Windows hasta 2.2.1.** Se aceptan las copias antiguas y se conserva un respaldo SQLite antes de actualizar.
+Windows está actualizado a **2.4.1**, con Pincel por evaluación, observaciones, recuperaciones y registros sin ponderación. Mac continúa en **2.0.2**, sin cambios. **Las nuevas copias JSON de formato 3 no pueden importarse en Mac 2.0.2 ni en Windows hasta 2.2.1.** Se aceptan las copias antiguas y se conserva un respaldo SQLite antes de actualizar.
 
 El instalador de Windows no tiene firma de editor. **Antes de actualizar, exporta una copia JSON externa y cierra la aplicación.** Si 2.0.3 no se cierra, exporta primero la copia y finaliza Mi Cuaderno desde el Administrador de tareas.
 
-## Novedades de Windows 2.3.1
+## Novedades de Windows 2.4.1
 
-- Copias automáticas opcionales en una carpeta elegida, al abrir y cada 15 minutos si hay cambios guardados. Conserva las 30 últimas gestionadas por la aplicación; no borra copias manuales, ajenas o modificadas. Un fallo no impide guardar el cuaderno.
-- AP muestra las actividades suspensas y sus notas vigentes al pulsarlo, también con teclado.
-- Deshacer notas, Pincel y pegados completos, sin sobrescribir otras modificaciones. La primera calificación de un campo vacío no muestra aviso; al modificar una existente, incluido cero, aparece Deshacer y **✓ OK**, sin X.
-- Las faltas requieren una sesión registrada, por defecto la última introducida. Varias sesiones del mismo día son independientes y la asistencia se calcula por sesiones. Los registros antiguos sin vínculo se conservan sin computar hasta asignarlos expresamente.
-- El desplegable de recuperaciones sólo ofrece actividades con alguna nota válida (incluido cero), ordenadas por evaluación, fecha y nombre.
-- Ayuda con R, AP, colores, recuperaciones, Pincel y copias. Pegados en una sola actualización y optimización de estadísticas de las rutas alternativas.
-- Conserva Pincel manual por evaluación (el de tercera es también el final y nunca calcula medias), observaciones por evaluación, recuperaciones y actividades sin ponderación.
-- Se mantienen los colores: rojo por debajo de 5, amarillo y AP en media aprobada con actividades suspensas, verde si aprueba sin ellas. R y AP aparecen en línea, también en medias acumuladas.
-- 541 pruebas correctas: 143 generales, 359 de interfaz/dominio y 39 Rust; un benchmark Rust ignorado. TypeScript y lint correctos. Sólo datos sintéticos durante la preparación, sin abrir bases reales ni ejecutar el instalador.
-- Windows 2.3.0 probado manualmente por el usuario. En 2.3.1 se precisa la Ayuda de recuperaciones y asistencia; pendiente su revisión manual. Nuevo ensayo de recuperación SQLite, procedimiento de rescate y plan de retirada del doble motor incluidos en las fuentes. No se retiran motores ni dependencias todavía.
+- Motor de evaluación único en Rust, fuera del hilo principal. Retirados los restos web y la compilación Electron; se conservan sus publicaciones históricas.
+- Los alumnos sin notas no cuentan como suspensos en las estadísticas; los ceros explícitos sí cuentan. Sin actividades ni un histórico acreditado se muestra «—».
+- En evaluación única se ve un punto en el gráfico; con varias evaluaciones consecutivas se dibuja la evolución. Los periodos pendientes no se convierten en ceros.
+- Se mantienen Pincel manual, recuperaciones, R/AP, asistencia por sesiones, PDF, copias automáticas y deshacer.
+- 553 pruebas correctas, TypeScript, lint, Clippy, compilación y empaquetado Windows verificados. Prueba manual Windows confirmada por el usuario.
 
-No cambian las fórmulas de evaluación ni el formato respecto a 2.3.0. SQLite y JSON mantienen el formato 3 con respaldo previo verificado. Las copias automáticas están desactivadas hasta elegir una carpeta en «Copia y restauración». Son periódicas, no continuas, y sólo funcionan con la aplicación abierta. Elige una carpeta privada, preferiblemente en otro disco; una carpeta de red o sincronizada puede llevar datos fuera del equipo. Los archivos contienen datos personales sin cifrar.
+Se conserva el formato JSON/SQLite 3 de 2.3.0. Se admiten copias antiguas. **Mac 2.0.2 y Windows hasta 2.2.1 no pueden abrir las nuevas copias.** Mac no se actualiza en esta entrega. La referencia TypeScript queda sólo en pruebas; no existe un motor alternativo en la aplicación.
 
-Mac conserva su versión 2.0.2 y no admite las copias de formato 2 ni 3. Para intercambiarlas con Mac se necesita una compilación compatible, todavía pendiente. Se conservan las publicaciones anteriores. Exporta una copia manual externa antes de actualizar.
+Las copias automáticas son opcionales, periódicas y sin cifrar. Elige una carpeta privada, preferiblemente en otro disco. No hay sincronización automática entre equipos. Exporta una copia antes de actualizar y cierra la aplicación.
 
 ## Novedades de 2.0.2
 
@@ -57,13 +52,13 @@ Si vienes de Electron 1.x, conserva su aplicación como respaldo y pasa tus dato
 
 ## Datos y funcionamiento
 
-Los cuadernos se guardan en el dispositivo. Windows 2.3.1 utiliza SQLite; la copia JSON exportable permite intercambiar datos entre versiones compatibles. Las copias nuevas de formato 3 requieren versiones actualizadas en ambos equipos. Tras migrar, el almacenamiento antiguo se conserva como rescate inicial y deja de actualizarse. Esta versión no sincroniza automáticamente los datos entre equipos. Permite importar alumnado, guardar y restaurar copias y exportar informes PDF.
+Los cuadernos se guardan en el dispositivo. Windows 2.4.1 utiliza SQLite; la copia JSON exportable permite intercambiar datos entre versiones compatibles. Las copias nuevas de formato 3 requieren versiones actualizadas en ambos equipos. Tras migrar, el almacenamiento antiguo se conserva como rescate inicial y deja de actualizarse. Esta versión no sincroniza automáticamente los datos entre equipos. Permite importar alumnado, guardar y restaurar copias y exportar informes PDF.
 
 ## Licencia y fuentes
 
 Copyright (C) 2026 Juan Luis Palmés Martín. Software libre bajo **GNU AGPL versión 3 exclusivamente (AGPL-3.0-only)**, sin garantía en los términos de la licencia. Consulta [LICENSE](LICENSE), [COPYRIGHT.md](COPYRIGHT.md) y [THIRD_PARTY_NOTICES.txt](THIRD_PARTY_NOTICES.txt). Las bibliotecas de terceros conservan sus propias licencias.
 
-Este repositorio es el canal público de distribución. **El código completo de cada versión se adjunta a su publicación** en `Mi-Cuaderno-2.0.2-codigo-fuente.tar.gz` para Mac (publicación 2.0.2) y en `Mi-Cuaderno-2.3.1-codigo-fuente.tar.gz` para Windows (publicación 2.3.1), con los recursos, scripts, archivos de bloqueo y fuentes de las dependencias incorporadas. Dentro encontrarás `SOURCE_CODE.md` con las instrucciones de compilación y `SOURCE-MANIFEST.json` para identificar los archivos utilizados.
+Este repositorio es el canal público de distribución. **El código completo de cada versión se adjunta a su publicación** en `Mi-Cuaderno-2.0.2-codigo-fuente.tar.gz` para Mac (publicación 2.0.2) y en `Mi-Cuaderno-2.4.1-codigo-fuente.tar.gz` para Windows (publicación 2.4.1), con los recursos, scripts, archivos de bloqueo y fuentes de las dependencias incorporadas. Dentro encontrarás `SOURCE_CODE.md` con las instrucciones de compilación y `SOURCE-MANIFEST.json` para identificar los archivos utilizados.
 
 También puedes guardar esas mismas fuentes sin conexión desde **Ayuda → Licencia y código fuente → Guardar código fuente** en la aplicación.
 
