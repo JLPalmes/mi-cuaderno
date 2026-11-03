@@ -9,12 +9,20 @@ Cuaderno del profesor para organizar grupos y alumnado, actividades, calificacio
 ## Descargar
 
 - **[Windows x64 — descargar Mi Cuaderno 2.4.1 (.exe)](https://github.com/JLPalmes/mi-cuaderno/releases/download/v2.4.1/Mi-Cuaderno-2.4.1-Windows-x64-Setup.exe)**.
-- **[Mac Apple Silicon — descargar Mi Cuaderno 2.4.1 (.dmg)](https://github.com/JLPalmes/mi-cuaderno/releases/download/v2.4.1/Mi-Cuaderno-2.4.1-arm64.dmg)**. Requiere M1 o posterior y macOS 11 o posterior; no es compatible con Mac Intel.
+- **[Mac Apple Silicon — descargar Mi Cuaderno 2.4.2 (.dmg)](https://github.com/JLPalmes/mi-cuaderno/releases/download/v2.4.2/Mi-Cuaderno-2.4.2-arm64.dmg)**. Requiere M1 o posterior y macOS 11 o posterior; no es compatible con Mac Intel.
 - [Ver la publicación principal, fuentes y licencias](https://github.com/JLPalmes/mi-cuaderno/releases/latest).
 
-Windows y Mac están actualizados a **2.4.1**, con Pincel por evaluación, observaciones, recuperaciones, registros sin ponderación y asistencia por sesiones. **Mac 2.4.1 admite las copias JSON de formato 3 exportadas desde Windows.** **Las nuevas copias JSON de formato 3 no pueden importarse en Mac 2.0.2 ni en Windows hasta 2.2.1.** Se aceptan las copias antiguas y se conserva un respaldo SQLite antes de actualizar.
+Mac se actualiza a **2.4.2** con la entrega de mantenimiento; Windows se mantiene en **2.4.1**. Ambas versiones incluyen Pincel por evaluación, observaciones, recuperaciones, registros sin ponderación y asistencia por sesiones, y admiten copias JSON de formato 3. **Las nuevas copias JSON de formato 3 no pueden importarse en Mac 2.0.2 ni en Windows hasta 2.2.1.** Se aceptan las copias antiguas y se conserva un respaldo SQLite antes de actualizar.
 
 El instalador de Windows no tiene firma de editor. **Antes de actualizar, exporta una copia JSON externa y cierra la aplicación.** Si 2.0.3 no se cierra, exporta primero la copia y finaliza Mi Cuaderno desde el Administrador de tareas.
+
+## Novedades de Mac 2.4.2
+
+- Formularios, edición, copias, importación y ordenación de grupos separados por responsabilidad.
+- Pruebas de interfaz organizadas por flujos, conservando los casos existentes y las 553 pruebas correctas del mantenimiento.
+- Versiones de PDF fijadas y comprobaciones automáticas de GitHub actualizadas.
+- Se mantienen los cálculos, Pincel, recuperaciones y el formato JSON/SQLite 3 de 2.4.1. La prueba en Mac 2.4.1 fue confirmada por el usuario.
+- Windows 2.4.1 y sus fuentes continúan disponibles en su publicación original.
 
 ## Novedades de 2.4.1 para Windows y Mac
 
@@ -22,9 +30,9 @@ El instalador de Windows no tiene firma de editor. **Antes de actualizar, export
 - Los alumnos sin notas no cuentan como suspensos en las estadísticas; los ceros explícitos sí cuentan. Sin actividades ni un histórico acreditado se muestra «—».
 - En evaluación única se ve un punto en el gráfico; con varias evaluaciones consecutivas se dibuja la evolución. Los periodos pendientes no se convierten en ceros.
 - Se mantienen Pincel manual, recuperaciones, R/AP, asistencia por sesiones, PDF, copias automáticas y deshacer.
-- 553 pruebas correctas, TypeScript, lint, formato Rust, Clippy, compilación y empaquetado verificados en Mac y Windows. Prueba manual Windows confirmada por el usuario; la prueba manual de la actualización Mac queda pendiente.
+- 553 pruebas correctas, TypeScript, lint, formato Rust, Clippy, compilación y empaquetado verificados en Mac y Windows. Las pruebas manuales de Windows y Mac 2.4.1 fueron confirmadas por el usuario.
 
-Se conserva el formato JSON/SQLite 3 de 2.3.0. Se admiten copias antiguas. **Mac 2.0.2 y Windows hasta 2.2.1 no pueden abrir las nuevas copias.** Mac 2.4.1 ya está disponible en esta misma publicación. La referencia TypeScript queda sólo en pruebas; no existe un motor alternativo en la aplicación.
+Se conserva el formato JSON/SQLite 3 de 2.3.0. Se admiten copias antiguas. **Mac 2.0.2 y Windows hasta 2.2.1 no pueden abrir las nuevas copias.** Mac 2.4.2 y Windows 2.4.1 están disponibles en sus respectivas publicaciones. La referencia TypeScript queda sólo en pruebas; no existe un motor alternativo en la aplicación.
 
 Las copias automáticas son opcionales, periódicas y sin cifrar. Elige una carpeta privada, preferiblemente en otro disco. No hay sincronización automática entre equipos. Exporta una copia antes de actualizar y cierra la aplicación.
 
@@ -52,13 +60,13 @@ Si vienes de Electron 1.x, conserva su aplicación como respaldo y pasa tus dato
 
 ## Datos y funcionamiento
 
-Los cuadernos se guardan en el dispositivo. Windows y Mac 2.4.1 utilizan SQLite; la copia JSON exportable permite intercambiar datos entre versiones compatibles. Las copias nuevas de formato 3 requieren versiones actualizadas en ambos equipos. Tras migrar, el almacenamiento antiguo se conserva como rescate inicial y deja de actualizarse. Esta versión no sincroniza automáticamente los datos entre equipos. Permite importar alumnado, guardar y restaurar copias y exportar informes PDF.
+Los cuadernos se guardan en el dispositivo. Windows 2.4.1 y Mac 2.4.2 utilizan SQLite; la copia JSON exportable permite intercambiar datos entre versiones compatibles. Las copias nuevas de formato 3 requieren versiones actualizadas en ambos equipos. Tras migrar, el almacenamiento antiguo se conserva como rescate inicial y deja de actualizarse. Esta versión no sincroniza automáticamente los datos entre equipos. Permite importar alumnado, guardar y restaurar copias y exportar informes PDF.
 
 ## Licencia y fuentes
 
 Copyright (C) 2026 Juan Luis Palmés Martín. Software libre bajo **GNU AGPL versión 3 exclusivamente (AGPL-3.0-only)**, sin garantía en los términos de la licencia. Consulta [LICENSE](LICENSE), [COPYRIGHT.md](COPYRIGHT.md) y [THIRD_PARTY_NOTICES.txt](THIRD_PARTY_NOTICES.txt). Las bibliotecas de terceros conservan sus propias licencias.
 
-Este repositorio es el canal público de distribución. **El código completo de cada versión se adjunta a su publicación** en `Mi-Cuaderno-2.4.1-Mac-codigo-fuente.tar.gz` para Mac y en `Mi-Cuaderno-2.4.1-codigo-fuente.tar.gz` para Windows, ambos en la publicación 2.4.1, con los recursos, scripts, archivos de bloqueo y fuentes de las dependencias incorporadas. Dentro encontrarás `SOURCE_CODE.md` con las instrucciones de compilación y `SOURCE-MANIFEST.json` para identificar los archivos utilizados.
+Este repositorio es el canal público de distribución. **El código completo de cada versión se adjunta a su publicación** en `Mi-Cuaderno-2.4.2-Mac-codigo-fuente.tar.gz` para Mac (publicación 2.4.2) y en `Mi-Cuaderno-2.4.1-codigo-fuente.tar.gz` para Windows (publicación 2.4.1), con los recursos, scripts, archivos de bloqueo y fuentes de las dependencias incorporadas. Dentro encontrarás `SOURCE_CODE.md` con las instrucciones de compilación y `SOURCE-MANIFEST.json` para identificar los archivos utilizados.
 
 También puedes guardar esas mismas fuentes sin conexión desde **Ayuda → Licencia y código fuente → Guardar código fuente** en la aplicación.
 
