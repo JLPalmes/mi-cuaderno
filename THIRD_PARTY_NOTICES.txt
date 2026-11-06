@@ -1871,7 +1871,7 @@ Origen: https://github.com/MikeMcl/decimal.js-light.git
 Autores declarados: {"name":"Michael Mclaughlin","email":"M8ch88l@gmail.com"}
 Aviso 190: LICENCE.md
 ========================================================================
-npm: dompurify 3.4.14
+npm: dompurify 3.4.17
 Licencia: (MPL-2.0 OR Apache-2.0)
 Origen: git://github.com/cure53/DOMPurify.git
 Autores declarados: "Dr.-Ing. Mario Heiderich, Cure53 <mario@cure53.de> (https://cure53.de/)"
@@ -2033,6 +2033,7 @@ Aviso 207: LICENSE
 npm: shadcn 4.18.0
 Licencia: MIT
 Origen: https://github.com/shadcn-ui/ui.git
+Distribución: Vendored stylesheet only; no CLI or JavaScript dependencies.
 Autores declarados: {"name":"shadcn","url":"https://twitter.com/shadcn"}
 Aviso 213: LICENSE.md
 ========================================================================
@@ -15744,4 +15745,3 @@ AVISO 223
    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
    See the License for the specific language governing permissions and
    limitations under the License.
-
