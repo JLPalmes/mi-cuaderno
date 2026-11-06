@@ -8,13 +8,21 @@ Cuaderno del profesor para organizar grupos y alumnado, actividades, calificacio
 
 ## Descargar
 
-- **[Windows x64 — descargar Mi Cuaderno 2.4.2 (.exe)](https://github.com/JLPalmes/mi-cuaderno/releases/download/v2.4.2/Mi-Cuaderno-2.4.2-Windows-x64-Setup.exe)**.
+- **[Windows x64 — descargar Mi Cuaderno 2.4.3 (.exe)](https://github.com/JLPalmes/mi-cuaderno/releases/download/v2.4.3/Mi-Cuaderno-2.4.3-Windows-x64-Setup.exe)**.
 - **[Mac Apple Silicon — descargar Mi Cuaderno 2.4.2 (.dmg)](https://github.com/JLPalmes/mi-cuaderno/releases/download/v2.4.2/Mi-Cuaderno-2.4.2-arm64.dmg)**. Requiere M1 o posterior y macOS 11 o posterior; no es compatible con Mac Intel.
 - [Ver la publicación principal, fuentes y licencias](https://github.com/JLPalmes/mi-cuaderno/releases/latest).
 
-Mac y Windows se actualizan a **2.4.2** con la entrega de mantenimiento. Ambas versiones incluyen Pincel por evaluación, observaciones, recuperaciones, registros sin ponderación y asistencia por sesiones, y admiten copias JSON de formato 3. **Las nuevas copias JSON de formato 3 no pueden importarse en Mac 2.0.2 ni en Windows hasta 2.2.1.** Se aceptan las copias antiguas y se conserva un respaldo SQLite antes de actualizar.
+Windows se actualiza a **2.4.3**; Mac conserva su instalador **2.4.2**. Ambas versiones incluyen Pincel por evaluación, observaciones, recuperaciones, registros sin ponderación y asistencia por sesiones, y admiten copias JSON de formato 3. **Las nuevas copias JSON de formato 3 no pueden importarse en Mac 2.0.2 ni en Windows hasta 2.2.1.** Se aceptan las copias antiguas y se conserva un respaldo SQLite antes de actualizar.
 
 El instalador de Windows no tiene firma de editor. **Antes de actualizar, exporta una copia JSON externa y cierra la aplicación.** Si 2.0.3 no se cierra, exporta primero la copia y finaliza Mi Cuaderno desde el Administrador de tareas.
+
+## Novedades de Windows 2.4.3
+
+- Comandos de arranque y compilación compatibles con Windows y Mac, sin configuración temporal para Windows.
+- Un único motor de evaluación, también en las pruebas: se elimina la referencia matemática TypeScript.
+- Pruebas directas de módulos de carga/guardado, grupos y deshacer; retirada la extracción AST de funciones.
+- 558 pruebas correctas, TypeScript, lint, formato Rust, Clippy y empaquetado Windows verificados. Instalación manual y nuevo comando en Mac pendientes.
+- Sin cambios en reglas de cálculo, datos ni formato SQLite/JSON 3. El instalador de Mac 2.4.2 continúa disponible.
 
 ## Novedades de 2.4.2 para Windows y Mac
 
@@ -32,7 +40,7 @@ El instalador de Windows no tiene firma de editor. **Antes de actualizar, export
 - Se mantienen Pincel manual, recuperaciones, R/AP, asistencia por sesiones, PDF, copias automáticas y deshacer.
 - 553 pruebas correctas, TypeScript, lint, formato Rust, Clippy, compilación y empaquetado verificados en Mac y Windows. Las pruebas manuales de Windows y Mac 2.4.1 fueron confirmadas por el usuario.
 
-Se conserva el formato JSON/SQLite 3 de 2.3.0. Se admiten copias antiguas. **Mac 2.0.2 y Windows hasta 2.2.1 no pueden abrir las nuevas copias.** Mac 2.4.2 y Windows 2.4.2 están disponibles en sus respectivas publicaciones. La referencia TypeScript queda sólo en pruebas; no existe un motor alternativo en la aplicación.
+Se conserva el formato JSON/SQLite 3 de 2.3.0. Se admiten copias antiguas. **Mac 2.0.2 y Windows hasta 2.2.1 no pueden abrir las nuevas copias.** Mac 2.4.2 y Windows 2.4.3 están disponibles en sus respectivas publicaciones. Desde Windows 2.4.3 también se retira la referencia TypeScript de las pruebas; no existe un motor alternativo en la aplicación.
 
 Las copias automáticas son opcionales, periódicas y sin cifrar. Elige una carpeta privada, preferiblemente en otro disco. No hay sincronización automática entre equipos. Exporta una copia antes de actualizar y cierra la aplicación.
 
@@ -60,13 +68,13 @@ Si vienes de Electron 1.x, conserva su aplicación como respaldo y pasa tus dato
 
 ## Datos y funcionamiento
 
-Los cuadernos se guardan en el dispositivo. Windows 2.4.2 y Mac 2.4.2 utilizan SQLite; la copia JSON exportable permite intercambiar datos entre versiones compatibles. Las copias nuevas de formato 3 requieren versiones actualizadas en ambos equipos. Tras migrar, el almacenamiento antiguo se conserva como rescate inicial y deja de actualizarse. Esta versión no sincroniza automáticamente los datos entre equipos. Permite importar alumnado, guardar y restaurar copias y exportar informes PDF.
+Los cuadernos se guardan en el dispositivo. Windows 2.4.3 y Mac 2.4.2 utilizan SQLite; la copia JSON exportable permite intercambiar datos entre versiones compatibles. Las copias nuevas de formato 3 requieren versiones actualizadas en ambos equipos. Tras migrar, el almacenamiento antiguo se conserva como rescate inicial y deja de actualizarse. Esta versión no sincroniza automáticamente los datos entre equipos. Permite importar alumnado, guardar y restaurar copias y exportar informes PDF.
 
 ## Licencia y fuentes
 
 Copyright (C) 2026 Juan Luis Palmés Martín. Software libre bajo **GNU AGPL versión 3 exclusivamente (AGPL-3.0-only)**, sin garantía en los términos de la licencia. Consulta [LICENSE](LICENSE), [COPYRIGHT.md](COPYRIGHT.md) y [THIRD_PARTY_NOTICES.txt](THIRD_PARTY_NOTICES.txt). Las bibliotecas de terceros conservan sus propias licencias.
 
-Este repositorio es el canal público de distribución. **El código completo de cada versión se adjunta a su publicación** en `Mi-Cuaderno-2.4.2-Mac-codigo-fuente.tar.gz` para Mac (publicación 2.4.2) y en `Mi-Cuaderno-2.4.2-codigo-fuente.tar.gz` para Windows (publicación 2.4.2), con los recursos, scripts, archivos de bloqueo y fuentes de las dependencias incorporadas. Dentro encontrarás `SOURCE_CODE.md` con las instrucciones de compilación y `SOURCE-MANIFEST.json` para identificar los archivos utilizados.
+Este repositorio es el canal público de distribución. **El código completo de cada versión se adjunta a su publicación** en `Mi-Cuaderno-2.4.2-Mac-codigo-fuente.tar.gz` para Mac (publicación 2.4.2) y en `Mi-Cuaderno-2.4.3-codigo-fuente.tar.gz` para Windows (publicación 2.4.3), con los recursos, scripts, archivos de bloqueo y fuentes de las dependencias incorporadas. Dentro encontrarás `SOURCE_CODE.md` con las instrucciones de compilación y `SOURCE-MANIFEST.json` para identificar los archivos utilizados.
 
 También puedes guardar esas mismas fuentes sin conexión desde **Ayuda → Licencia y código fuente → Guardar código fuente** en la aplicación.
 
