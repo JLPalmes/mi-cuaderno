@@ -10,9 +10,9 @@ Cuaderno del profesor para organizar grupos y alumnado, actividades, calificacio
 
 - **[Windows x64 — descargar Mi Cuaderno 2.4.5 (.exe)](https://github.com/JLPalmes/mi-cuaderno/releases/download/v2.4.5/Mi-Cuaderno-2.4.5-Windows-x64-Setup.exe)**.
 - **[Mac Apple Silicon — descargar Mi Cuaderno 2.4.7 (.dmg)](https://github.com/JLPalmes/mi-cuaderno/releases/download/v2.4.7/Mi-Cuaderno-2.4.7-Mac-arm64.dmg)**. Requiere M1 o posterior y macOS 11 o posterior; no es compatible con Mac Intel.
-- [Ver la publicación principal, fuentes y licencias](https://github.com/JLPalmes/mi-cuaderno/releases/latest).
+- Publicaciones con fuentes y licencias: [Windows 2.4.5](https://github.com/JLPalmes/mi-cuaderno/releases/tag/v2.4.5) y [Mac 2.4.7](https://github.com/JLPalmes/mi-cuaderno/releases/tag/v2.4.7).
 
-Windows se actualiza a **2.4.5** para evitar el desplazamiento de la ficha al editar notas. Mac se actualiza a **2.4.7**. El usuario ha confirmado que la tabla ya no salta al editar notas. Ambas versiones incluyen Pincel por evaluación, observaciones, recuperaciones, registros sin ponderación y asistencia por sesiones, y admiten copias JSON de formato 3. **Las nuevas copias JSON de formato 3 no pueden importarse en Mac 2.0.2 ni en Windows hasta 2.2.1.** Se aceptan las copias antiguas y se conserva un respaldo SQLite antes de actualizar.
+El usuario confirmó que el salto al editar notas quedó resuelto en **Windows 2.4.5** y **Mac 2.4.7**. El instalador de Windows se compiló desde `e7120ce` y el de Mac desde `d614ff7`, que incluye los ajustes posteriores de interfaz. Ambas versiones incluyen Pincel por evaluación, observaciones, recuperaciones, registros sin ponderación y asistencia por sesiones, y admiten copias JSON de formato 3. **Las nuevas copias JSON de formato 3 no pueden importarse en Mac 2.0.2 ni en Windows hasta 2.2.1.** Se aceptan las copias antiguas y se conserva un respaldo SQLite antes de actualizar.
 
 El instalador de Windows no tiene firma de editor. **Antes de actualizar, exporta una copia JSON externa y cierra la aplicación.** Si 2.0.3 no se cierra, exporta primero la copia y finaliza Mi Cuaderno desde el Administrador de tareas.
 
