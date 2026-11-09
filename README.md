@@ -9,19 +9,25 @@ Cuaderno del profesor para organizar grupos y alumnado, actividades, calificacio
 ## Descargar
 
 - **[Windows x64 — descargar Mi Cuaderno 2.4.5 (.exe)](https://github.com/JLPalmes/mi-cuaderno/releases/download/v2.4.5/Mi-Cuaderno-2.4.5-Windows-x64-Setup.exe)**.
-- **[Mac Apple Silicon — descargar Mi Cuaderno 2.4.4 (.dmg)](https://github.com/JLPalmes/mi-cuaderno/releases/download/v2.4.4/Mi-Cuaderno-2.4.4-Mac-arm64.dmg)**. Requiere M1 o posterior y macOS 11 o posterior; no es compatible con Mac Intel.
+- **[Mac Apple Silicon — descargar Mi Cuaderno 2.4.6 (.dmg)](https://github.com/JLPalmes/mi-cuaderno/releases/download/v2.4.6/Mi-Cuaderno-2.4.6-Mac-arm64.dmg)**. Requiere M1 o posterior y macOS 11 o posterior; no es compatible con Mac Intel.
 - [Ver la publicación principal, fuentes y licencias](https://github.com/JLPalmes/mi-cuaderno/releases/latest).
 
-Windows se actualiza a **2.4.5** para evitar el desplazamiento de la ficha al editar notas. Mac sigue en **2.4.4**; la nueva compilación queda pendiente para cuando se disponga del Mac. Ambas versiones incluyen Pincel por evaluación, observaciones, recuperaciones, registros sin ponderación y asistencia por sesiones, y admiten copias JSON de formato 3. **Las nuevas copias JSON de formato 3 no pueden importarse en Mac 2.0.2 ni en Windows hasta 2.2.1.** Se aceptan las copias antiguas y se conserva un respaldo SQLite antes de actualizar.
+Windows se actualiza a **2.4.5** para evitar el desplazamiento de la ficha al editar notas. Mac se actualiza a **2.4.6** con ajustes de la tabla de Evaluación durante el recálculo. Ambas versiones incluyen Pincel por evaluación, observaciones, recuperaciones, registros sin ponderación y asistencia por sesiones, y admiten copias JSON de formato 3. **Las nuevas copias JSON de formato 3 no pueden importarse en Mac 2.0.2 ni en Windows hasta 2.2.1.** Se aceptan las copias antiguas y se conserva un respaldo SQLite antes de actualizar.
 
 El instalador de Windows no tiene firma de editor. **Antes de actualizar, exporta una copia JSON externa y cierra la aplicación.** Si 2.0.3 no se cierra, exporta primero la copia y finaliza Mi Cuaderno desde el Administrador de tareas.
+
+## Novedades de Mac 2.4.6
+
+- La tabla reserva espacio para los resultados y «Solo pendientes» conserva sus filas mientras se recalculan las notas.
+- Pasan las 376 pruebas de interfaz. La comprobación visual del salto en la aplicación de Mac está pendiente.
+- [Instalador, fuentes, licencias y huellas](https://github.com/JLPalmes/mi-cuaderno/releases/tag/v2.4.6).
 
 ## Novedades de Windows 2.4.5
 
 - El aviso de cálculo ya no añade ni retira una fila al introducir, editar, borrar o deshacer una nota.
 - Se mantienen los avisos accesibles y la posibilidad de reintentar en caso de error.
 - Compilación y comprobaciones locales, sin GitHub Actions. Sin cambios en reglas de cálculo, SQLite ni copias JSON de formato 3.
-- Instalación y comprobación visual pendientes del usuario. Mac 2.4.5 pendiente de compilación en el Mac.
+- El usuario confirmó que el salto quedó resuelto en Windows.
 
 ## Novedades de 2.4.4 para Windows y Mac
 
