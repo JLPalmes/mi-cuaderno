@@ -16,6 +16,8 @@ El usuario confirmó que el salto al editar notas quedó resuelto en **Windows 2
 
 El instalador de Windows no tiene firma de editor. **Antes de actualizar, exporta una copia JSON externa y cierra la aplicación.** Si 2.0.3 no se cierra, exporta primero la copia y finaliza Mi Cuaderno desde el Administrador de tareas.
 
+Mac 2.4.8 incorpora el orden alfabético del alumnado y propone la evaluación de la última sesión del grupo. Su publicación preliminar está pendiente de recibir el instalador y las fuentes. [Estado de Mac 2.4.8](https://github.com/JLPalmes/mi-cuaderno/releases/tag/v2.4.8).
+
 ## Novedades de Mac 2.4.7
 
 - Se retira el aviso visual «Calculando…» de la barra de guardado. El usuario ha confirmado que la tabla ya no salta al editar notas en Mac.
