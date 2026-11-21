@@ -8,15 +8,22 @@ Cuaderno del profesor para organizar grupos y alumnado, actividades, calificacio
 
 ## Descargar
 
-- **[Windows x64 — descargar Mi Cuaderno 2.4.17 (.exe)](https://github.com/JLPalmes/mi-cuaderno/releases/download/v2.4.17/Mi-Cuaderno-2.4.17-Windows-x64-Setup.exe)**.
+- **[Windows x64 — descargar Mi Cuaderno 2.4.18 (.exe)](https://github.com/JLPalmes/mi-cuaderno/releases/download/v2.4.18/Mi-Cuaderno-2.4.18-Windows-x64-Setup.exe)**.
 - **[Mac Apple Silicon — descargar Mi Cuaderno 2.4.9 (.dmg)](https://github.com/JLPalmes/mi-cuaderno/releases/download/v2.4.9/Mi-Cuaderno-2.4.9-Mac-arm64.dmg)**. Requiere M1 o posterior y macOS 11 o posterior; no es compatible con Mac Intel.
-- Publicaciones con fuentes y licencias: [Windows 2.4.17](https://github.com/JLPalmes/mi-cuaderno/releases/tag/v2.4.17) y [Mac 2.4.9](https://github.com/JLPalmes/mi-cuaderno/releases/tag/v2.4.9).
+- Publicaciones con fuentes y licencias: [Windows 2.4.18](https://github.com/JLPalmes/mi-cuaderno/releases/tag/v2.4.18) y [Mac 2.4.9](https://github.com/JLPalmes/mi-cuaderno/releases/tag/v2.4.9).
 
 El usuario confirmó que el salto al editar notas quedó resuelto en **Windows 2.4.5** y **Mac 2.4.7**. El instalador de Windows 2.4.5 se compiló desde `e7120ce` y el de Mac desde `d614ff7`, que incluye los ajustes posteriores de interfaz. Ambas versiones incluyen Pincel por evaluación, observaciones, recuperaciones, registros sin ponderación y asistencia por sesiones, y admiten copias JSON de formato 3. **Las nuevas copias JSON de formato 3 no pueden importarse en Mac 2.0.2 ni en Windows hasta 2.2.1.** Se aceptan las copias antiguas y se conserva un respaldo SQLite antes de actualizar.
 
 El instalador de Windows no tiene firma de editor. **Antes de actualizar, exporta una copia JSON externa y cierra la aplicación.** Si 2.0.3 no se cierra, exporta primero la copia y finaliza Mi Cuaderno desde el Administrador de tareas.
 
 Mac 2.4.8 incorpora el orden alfabético del alumnado y propone la evaluación de la última sesión del grupo. [Instalador, fuentes, licencias y huellas](https://github.com/JLPalmes/mi-cuaderno/releases/tag/v2.4.8).
+
+## Novedades de Windows 2.4.18
+
+- El correo de la cuenta de Google aparece en la barra de estado de la pantalla principal, además del diálogo. Si no puede comprobarse de nuevo, se retira la dirección anterior.
+- Acceso visible **Configurar**, junto a **Sincronizar** en el menú lateral. Permite abrir la configuración después de sincronizar correctamente, sin iniciar otro intercambio.
+- Mantiene los permisos de Google, las reglas de cálculo, SQLite y las copias JSON. Pasan 146 pruebas generales y 434 de interfaz.
+- Instalación manual. Pendientes las pruebas de los compañeros y la sincronización completa con Mac.
 
 ## Novedades de Windows 2.4.17
 
@@ -121,13 +128,13 @@ Si vienes de Electron 1.x, conserva su aplicación como respaldo y pasa tus dato
 
 ## Datos y funcionamiento
 
-Los cuadernos se guardan en el dispositivo. Windows 2.4.17 y Mac 2.4.9 utilizan SQLite; la copia JSON exportable permite intercambiar datos entre versiones compatibles. Las copias nuevas de formato 3 requieren versiones actualizadas en ambos equipos. Tras migrar, el almacenamiento antiguo se conserva como rescate inicial y deja de actualizarse. Windows 2.4.17 permite sincronización cifrada opcional mediante conexión directa con Google Drive, al iniciar, salir y desde el menú. Requiere configurar la cuenta y la frase de cifrado. La sincronización con Mac requiere una versión compatible, todavía pendiente de entrega y validación; Mac 2.4.9 permite intercambiar copias JSON. La generación de PDF y el uso del cuaderno sin sincronización siguen siendo locales. El propietario confirma que el registro OAuth de Google está en producción; ya no se requiere una lista de usuarios de prueba. Las políticas de cada centro educativo pueden limitar el acceso y los permisos pueden caducar o revocarse por otras causas. Permite importar alumnado, guardar y restaurar copias y exportar informes PDF.
+Los cuadernos se guardan en el dispositivo. Windows 2.4.18 y Mac 2.4.9 utilizan SQLite; la copia JSON exportable permite intercambiar datos entre versiones compatibles. Las copias nuevas de formato 3 requieren versiones actualizadas en ambos equipos. Tras migrar, el almacenamiento antiguo se conserva como rescate inicial y deja de actualizarse. Windows 2.4.18 permite sincronización cifrada opcional mediante conexión directa con Google Drive, al iniciar, salir y desde el menú. Requiere configurar la cuenta y la frase de cifrado. La sincronización con Mac requiere una versión compatible, todavía pendiente de entrega y validación; Mac 2.4.9 permite intercambiar copias JSON. La generación de PDF y el uso del cuaderno sin sincronización siguen siendo locales. El propietario confirma que el registro OAuth de Google está en producción; ya no se requiere una lista de usuarios de prueba. Las políticas de cada centro educativo pueden limitar el acceso y los permisos pueden caducar o revocarse por otras causas. Permite importar alumnado, guardar y restaurar copias y exportar informes PDF.
 
 ## Licencia y fuentes
 
 Copyright (C) 2026 Juan Luis Palmés Martín. Software libre bajo **GNU AGPL versión 3 exclusivamente (AGPL-3.0-only)**, sin garantía en los términos de la licencia. Consulta [LICENSE](LICENSE), [COPYRIGHT.md](COPYRIGHT.md) y [THIRD_PARTY_NOTICES.txt](THIRD_PARTY_NOTICES.txt). Las bibliotecas de terceros conservan sus propias licencias.
 
-Este repositorio es el canal público de distribución. **El código completo de cada versión se adjunta a su publicación** en `Mi-Cuaderno-2.4.9-Mac-codigo-fuente.tar.gz` para Mac (publicación 2.4.9) y en `Mi-Cuaderno-2.4.17-Windows-codigo-fuente.tar.gz` para Windows (publicación 2.4.17), con los recursos, scripts, archivos de bloqueo y fuentes de las dependencias incorporadas. Dentro encontrarás `SOURCE_CODE.md` con las instrucciones de compilación y `SOURCE-MANIFEST.json` para identificar los archivos utilizados.
+Este repositorio es el canal público de distribución. **El código completo de cada versión se adjunta a su publicación** en `Mi-Cuaderno-2.4.9-Mac-codigo-fuente.tar.gz` para Mac (publicación 2.4.9) y en `Mi-Cuaderno-2.4.18-Windows-codigo-fuente.tar.gz` para Windows (publicación 2.4.18), con los recursos, scripts, archivos de bloqueo y fuentes de las dependencias incorporadas. Dentro encontrarás `SOURCE_CODE.md` con las instrucciones de compilación y `SOURCE-MANIFEST.json` para identificar los archivos utilizados.
 
 También puedes guardar esas mismas fuentes sin conexión desde **Ayuda → Licencia y código fuente → Guardar código fuente** en la aplicación.
 
