@@ -22,7 +22,7 @@ Mac 2.4.8 incorpora el orden alfabético del alumnado y propone la evaluación d
 
 - Corrige el cierre tras guardar y sincronizar y amplía el mensaje de estado.
 - Incorpora la sincronización cifrada con Google Drive de Windows 2.4.18.
-- La activación del canal de actualizaciones espera la firma del paquete.
+- El canal estable de actualizaciones para Mac está configurado con paquetes firmados. La primera instalación de 2.4.19 se realiza manualmente.
 
 ## Novedades de Windows 2.4.18
 

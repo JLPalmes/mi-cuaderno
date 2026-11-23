@@ -1,0 +1,11 @@
+{
+  "version": "2.4.19",
+  "notes": "Corrige el cierre tras sincronizar y amplía el mensaje de estado.",
+  "pub_date": "2026-11-23T17:13:52.873907+00:00",
+  "platforms": {
+    "darwin-aarch64": {
+      "url": "https://github.com/JLPalmes/mi-cuaderno/releases/download/v2.4.19/Mi-Cuaderno-2.4.19-Mac.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTY0pXRXk1U05BUERQZjgyRGMwYTdaUjkrNjdLMDhObXFPZVVNQi9weEtZRmNZUTZaTDFxK015aEdXUG4wRFhPeDFnai93cTZybGF5M21sSERpL3FzVlFWY1pIV0JtZEFvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NDUzOTM5CWZpbGU6TWktQ3VhZGVybm8tMi40LjE5LU1hYy5hcHAudGFyLmd6CXZlcnNpb246Mi40LjE5CjJzZ1R1WjJ3clo4NXlVaHgxdmtpY2hBaTdjSEh2NitnNUZ3T0tldm4zMkFTNHp5ZGQ4dGhhNms0ai9Ldmg2akpaNWZhdFVjRk93MXB5NGlLUWN2OEFnPT0K"
+    }
+  }
+}
