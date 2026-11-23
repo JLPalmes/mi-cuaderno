@@ -22,7 +22,7 @@ Mac 2.4.8 incorpora el orden alfabético del alumnado y propone la evaluación d
 
 - Confirmación nativa al salir y revisión obligatoria antes de incorporar el cuaderno recibido al iniciar.
 - Advertencia sobre datos antiguos y texto de sincronización simplificado.
-- Instalación manual disponible. El paquete de actualización automática está pendiente de firma.
+- Instalación manual y paquete firmado de actualización automática disponibles para Mac.
 
 ## Novedades de Mac 2.4.19
 
