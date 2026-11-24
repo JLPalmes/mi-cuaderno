@@ -9,14 +9,19 @@ Cuaderno del profesor para organizar grupos y alumnado, actividades, calificacio
 ## Descargar
 
 - **[Windows x64 — descargar Mi Cuaderno 2.4.18 (.exe)](https://github.com/JLPalmes/mi-cuaderno/releases/download/v2.4.18/Mi-Cuaderno-2.4.18-Windows-x64-Setup.exe)**.
-- **[Mac Apple Silicon — descargar Mi Cuaderno 2.4.20 (.dmg)](https://github.com/JLPalmes/mi-cuaderno/releases/download/v2.4.20/Mi-Cuaderno-2.4.20-Mac-arm64.dmg)**. Requiere M1 o posterior y macOS 11 o posterior; no es compatible con Mac Intel.
-- Publicaciones con fuentes y licencias: [Windows 2.4.18](https://github.com/JLPalmes/mi-cuaderno/releases/tag/v2.4.18) y [Mac 2.4.20](https://github.com/JLPalmes/mi-cuaderno/releases/tag/v2.4.20).
+- **[Mac Apple Silicon — descargar Mi Cuaderno 2.4.21 (.dmg)](https://github.com/JLPalmes/mi-cuaderno/releases/download/v2.4.21/Mi-Cuaderno-2.4.21-Mac-arm64.dmg)**. Requiere M1 o posterior y macOS 11 o posterior; no es compatible con Mac Intel.
+- Publicaciones con fuentes y licencias: [Windows 2.4.18](https://github.com/JLPalmes/mi-cuaderno/releases/tag/v2.4.18) y [Mac 2.4.21](https://github.com/JLPalmes/mi-cuaderno/releases/tag/v2.4.21).
 
 El usuario confirmó que el salto al editar notas quedó resuelto en **Windows 2.4.5** y **Mac 2.4.7**. El instalador de Windows 2.4.5 se compiló desde `e7120ce` y el de Mac desde `d614ff7`, que incluye los ajustes posteriores de interfaz. Ambas versiones incluyen Pincel por evaluación, observaciones, recuperaciones, registros sin ponderación y asistencia por sesiones, y admiten copias JSON de formato 3. **Las nuevas copias JSON de formato 3 no pueden importarse en Mac 2.0.2 ni en Windows hasta 2.2.1.** Se aceptan las copias antiguas y se conserva un respaldo SQLite antes de actualizar.
 
 El instalador de Windows no tiene firma de editor. **Antes de actualizar, exporta una copia JSON externa y cierra la aplicación.** Si 2.0.3 no se cierra, exporta primero la copia y finaliza Mi Cuaderno desde el Administrador de tareas.
 
 Mac 2.4.8 incorpora el orden alfabético del alumnado y propone la evaluación de la última sesión del grupo. [Instalador, fuentes, licencias y huellas](https://github.com/JLPalmes/mi-cuaderno/releases/tag/v2.4.8).
+
+## Novedades de Mac 2.4.21
+
+- Ponderación de actividades con decimales y sin flechas de incremento.
+- Instalador manual disponible. La actualización automática espera la firma del paquete.
 
 ## Novedades de Mac 2.4.20
 
