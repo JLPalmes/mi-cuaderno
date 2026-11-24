@@ -22,7 +22,7 @@ Mac 2.4.8 incorpora el orden alfabético del alumnado y propone la evaluación d
 
 - Barra horizontal de Gestionar actividades con espacio y estilo explícitos desde el primer despliegue.
 - Pendiente de confirmación visual en la aplicación.
-- Instalador manual publicado. El paquete de actualización automática espera la firma.
+- Instalador manual y actualización automática firmada disponibles para Mac.
 
 ## Novedades de Mac 2.4.24
 

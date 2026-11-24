@@ -1,11 +1,11 @@
 {
-  "version": "2.4.24",
-  "notes": "Aviso de cambios locales pendientes al salir en lugar de sincronización automática. Tarjetas de actividades compactas y confirmación antes de eliminarlas.",
-  "pub_date": "2026-11-24T15:26:58.314108+00:00",
+  "version": "2.4.25",
+  "notes": "Ajusta el ancho y reserva el espacio de la barra horizontal de Gestionar actividades desde el primer despliegue.",
+  "pub_date": "2026-11-24T15:38:10.445443+00:00",
   "platforms": {
     "darwin-aarch64": {
-      "url": "https://github.com/JLPalmes/mi-cuaderno/releases/download/v2.4.24/Mi-Cuaderno-2.4.24-Mac.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTY0pXRXk1U05BUEEwaWlKKytmbEU3RGcyUWNhZTRWaWdNbGZNcVRZTkMwRkV4Z1VCVHRoOUliRUkxOGJmZmlCUEl2U1cxazdBdHpib2lRNHFQNUM0VzRXenVGb1lkQWd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NTMzOTYzCWZpbGU6TWktQ3VhZGVybm8tMi40LjI0LU1hYy5hcHAudGFyLmd6CXZlcnNpb246Mi40LjI0CmhleUsrR3FxOFg3WHU3aWN4TERzbEhTLzFhb2Y0Q3owVTUzb1AySXVsdm5aNFJINENRODNLYWc5WC9sNnZCZXlTbmZQNWlXajA2RWxHVTFTMFdJdkR3PT0K"
+      "url": "https://github.com/JLPalmes/mi-cuaderno/releases/download/v2.4.25/Mi-Cuaderno-2.4.25-Mac.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTY0pXRXk1U05BUEcyaFEwYmNxeU1lQ1ZZdXR2d0JoZVFQOE1aV3NlK09qTTBodjhVRGJ3Zy9SVmI5RXErUGxObzZySWFMTEs4dGdoSEt5TW9hOVB2UHBseDVTUVpNcUE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NTM0NjI1CWZpbGU6TWktQ3VhZGVybm8tMi40LjI1LU1hYy5hcHAudGFyLmd6CXZlcnNpb246Mi40LjI1Ci9pWFdmUlpoNVVFUWRjOXNBUGdVRzdaUVJPRTlpTXRuNDhYU0pGY1FsSU5NUFFwdkxEc1FQZjJCWlVPaCtnYTJBM2piTzdKcHpvY1JKTXFQOUlZOUJ3PT0K"
     }
   }
 }
