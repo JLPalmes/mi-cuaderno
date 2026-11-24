@@ -22,7 +22,7 @@ Mac 2.4.8 incorpora el orden alfabético del alumnado y propone la evaluación d
 
 - Sumas de ponderaciones con un máximo de tres decimales.
 - Títulos de actividades limitados a tres líneas con texto truncado.
-- Instalador manual publicado. El paquete de actualización automática espera la firma.
+- Instalador manual y actualización automática firmada disponibles para Mac.
 
 ## Novedades de Mac 2.4.21
 
