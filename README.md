@@ -21,7 +21,7 @@ Mac 2.4.8 incorpora el orden alfabético del alumnado y propone la evaluación d
 ## Novedades de Mac 2.4.21
 
 - Ponderación de actividades con decimales y sin flechas de incremento.
-- Instalador manual disponible. La actualización automática espera la firma del paquete.
+- Instalador manual y actualización automática firmada disponibles para Mac.
 
 ## Novedades de Mac 2.4.20
 

@@ -1,11 +1,11 @@
 {
-  "version": "2.4.20",
-  "notes": "Confirmación nativa al salir y revisión antes de incorporar un cuaderno recibido.",
-  "pub_date": "2026-11-23T17:27:43.331306+00:00",
+  "version": "2.4.21",
+  "notes": "La ponderación de actividades admite decimales y el campo oculta las flechas de incremento.",
+  "pub_date": "2026-11-24T14:25:51.435852+00:00",
   "platforms": {
     "darwin-aarch64": {
-      "url": "https://github.com/JLPalmes/mi-cuaderno/releases/download/v2.4.20/Mi-Cuaderno-2.4.20-Mac.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTY0pXRXk1U05BUENnL1RCMDd1SUtDNVRkWDdFa2xtM0YvekMxK2ZtaSt3dDdNdWdlTXFpa3ltQUFlamNVZG5DYTh0VXdkVGdxak1UWUxQRHdVc1ZoTWdXWVV3Mmk3eFFvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NDU0Nzk3CWZpbGU6TWktQ3VhZGVybm8tMi40LjIwLU1hYy5hcHAudGFyLmd6CXZlcnNpb246Mi40LjIwCmtZQm5NY1kySUxJWURYaVpnMVdQQ3djTUZVdTRLM0RPUVpzZzJVWEFrYWRBUXVCdFdHeDBHK1NNRGJoeDBtZ2d1c1Y1NW9tVFV2MXdib1MybUJWdUN3PT0K"
+      "url": "https://github.com/JLPalmes/mi-cuaderno/releases/download/v2.4.21/Mi-Cuaderno-2.4.21-Mac.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTY0pXRXk1U05BUEV1Ykpuem9HTldCNXFMUEowTHkzWUZTVzdNU2pzKzAvWWY4UC96S00wSDQyYWtJK1VoMzdNTUhVQlVERjNqS0g2NEswOVl6UWRKVjVJcEdxWk1lQndzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NTMwMjc2CWZpbGU6TWktQ3VhZGVybm8tMi40LjIxLU1hYy5hcHAudGFyLmd6CXZlcnNpb246Mi40LjIxCmhXQmpnQy9vNFZyLzBvTFNKbjAycTRUZTFBUExZSU0wMkx0a0dkTmhLTW1lb1ArNmRsWUhYTXlJNUIxYStMbmoveDRaNjliLzV6NmVJZ2tPY2o4VUF3PT0K"
     }
   }
 }
