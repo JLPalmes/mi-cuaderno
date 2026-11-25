@@ -1,11 +1,11 @@
 {
-  "version": "2.4.25",
-  "notes": "Ajusta el ancho y reserva el espacio de la barra horizontal de Gestionar actividades desde el primer despliegue.",
-  "pub_date": "2026-11-24T15:38:10.445443+00:00",
+  "version": "2.5.0",
+  "notes": "Rediseño de Evaluación: contenido a todo el ancho, fecha y edición en los encabezados, borrado con confirmación en el formulario y contador de actividades junto a los pendientes.",
+  "pub_date": "2026-11-25T13:32:45.778550+00:00",
   "platforms": {
     "darwin-aarch64": {
-      "url": "https://github.com/JLPalmes/mi-cuaderno/releases/download/v2.4.25/Mi-Cuaderno-2.4.25-Mac.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTY0pXRXk1U05BUEcyaFEwYmNxeU1lQ1ZZdXR2d0JoZVFQOE1aV3NlK09qTTBodjhVRGJ3Zy9SVmI5RXErUGxObzZySWFMTEs4dGdoSEt5TW9hOVB2UHBseDVTUVpNcUE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NTM0NjI1CWZpbGU6TWktQ3VhZGVybm8tMi40LjI1LU1hYy5hcHAudGFyLmd6CXZlcnNpb246Mi40LjI1Ci9pWFdmUlpoNVVFUWRjOXNBUGdVRzdaUVJPRTlpTXRuNDhYU0pGY1FsSU5NUFFwdkxEc1FQZjJCWlVPaCtnYTJBM2piTzdKcHpvY1JKTXFQOUlZOUJ3PT0K"
+      "url": "https://github.com/JLPalmes/mi-cuaderno/releases/download/v2.5.0/Mi-Cuaderno-2.5.0-Mac.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTY0pXRXk1U05BUEE5SGRQdHIvazc2UEtDVjcvTjFuNzNZY2JRWnZxTzBmNEkrTVlLWHFnN29LcXQ2WG8zVkptWU9zc2dDQTdvNngyalN6dDBEeVl5eWFKSjgrNGZMMkE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NjEzNTAxCWZpbGU6TWktQ3VhZGVybm8tMi41LjAtTWFjLmFwcC50YXIuZ3oJdmVyc2lvbjoyLjUuMApSanlTSmlyOVZVTmJDRTR6WXQ3S0JnZjNRQlhsMHcvYWEvOVBLYWRYOUxNOTBYenJlWmJtMVNMMDYvdUk4OXBXTG9DV0Z1bTh3cHBPQjV4STU3R1BDdz09Cg=="
     }
   }
 }
