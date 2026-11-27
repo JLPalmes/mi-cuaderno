@@ -8,15 +8,24 @@ Cuaderno del profesor para organizar grupos y alumnado, actividades, calificacio
 
 ## Descargar
 
-- **[Windows x64 — descargar Mi Cuaderno 2.5.0 (.exe)](https://github.com/JLPalmes/mi-cuaderno/releases/download/v2.5.0/Mi-Cuaderno-2.5.0-Windows-x64-Setup.exe)**.
+- **[Windows x64 — descargar Mi Cuaderno 2.5.1 (.exe)](https://github.com/JLPalmes/mi-cuaderno/releases/download/v2.5.1/Mi-Cuaderno-2.5.1-Windows-x64-Setup.exe)**.
 - **[Mac Apple Silicon — descargar Mi Cuaderno 2.5.0 (.dmg)](https://github.com/JLPalmes/mi-cuaderno/releases/download/v2.5.0/Mi-Cuaderno-2.5.0-Mac-arm64.dmg)**. Requiere M1 o posterior y macOS 11 o posterior; no es compatible con Mac Intel.
-- Publicaciones con fuentes y licencias: [Windows 2.5.0](https://github.com/JLPalmes/mi-cuaderno/releases/tag/v2.5.0) y [Mac 2.5.0](https://github.com/JLPalmes/mi-cuaderno/releases/tag/v2.5.0).
+- Publicaciones con fuentes y licencias: [Windows 2.5.1](https://github.com/JLPalmes/mi-cuaderno/releases/tag/v2.5.1) y [Mac 2.5.0](https://github.com/JLPalmes/mi-cuaderno/releases/tag/v2.5.0).
 
 El usuario confirmó que el salto al editar notas quedó resuelto en **Windows 2.4.5** y **Mac 2.4.7**. El instalador de Windows 2.4.5 se compiló desde `e7120ce` y el de Mac desde `d614ff7`, que incluye los ajustes posteriores de interfaz. Ambas versiones incluyen Pincel por evaluación, observaciones, recuperaciones, registros sin ponderación y asistencia por sesiones, y admiten copias JSON de formato 3. **Las nuevas copias JSON de formato 3 no pueden importarse en Mac 2.0.2 ni en Windows hasta 2.2.1.** Se aceptan las copias antiguas y se conserva un respaldo SQLite antes de actualizar.
 
 El instalador de Windows no tiene firma de editor. **Antes de actualizar, exporta una copia JSON externa y cierra la aplicación.** Si 2.0.3 no se cierra, exporta primero la copia y finaliza Mi Cuaderno desde el Administrador de tareas.
 
 Mac 2.4.8 incorpora el orden alfabético del alumnado y propone la evaluación de la última sesión del grupo. [Instalador, fuentes, licencias y huellas](https://github.com/JLPalmes/mi-cuaderno/releases/tag/v2.4.8).
+
+## Windows 2.5.1
+
+- Evaluación aprovecha también la altura disponible, sin el antiguo límite de 640 píxeles de tabla.
+- Inspección de Drive sin bloquear la edición; si cambian los datos, no se envía una instantánea anterior. Detener sincronización y plazo total acotado, conservando la confirmación de envíos iniciados.
+- Comprobación de protección del proveedor reutilizada por sesión; cada escritura mantiene su revisión y confirmación.
+- Permisos explícitos de Tauri, actualizaciones de seguridad de SQLite y dependencias y control de coherencia de la clave pública. Sin cambios de esquema ni de formato JSON.
+- 149 pruebas generales, 449 de interfaz y 70 Rust correctas, además de TypeScript, lint, formato y Clippy. Pendiente la prueba visual del espacio vertical por el usuario y la validación nativa en Mac.
+- Instalación manual Windows, sin firma de editor. Pendiente de firma del paquete en el Mac para el canal automático. La descarga y el canal firmado de Mac 2.5.0 se conservan.
 
 ## Windows 2.5.0
 

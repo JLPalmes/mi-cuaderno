@@ -239,7 +239,7 @@ Aviso 10: LICENSE-APACHE
 Aviso 33: LICENSE-CC0
 Aviso 34: LICENSE-MIT0
 ========================================================================
-cargo: cookie 0.18.2
+cargo: cookie 0.18.3
 Licencia: MIT OR Apache-2.0
 Origen: https://github.com/SergioBenitez/cookie-rs
 Autores declarados: ["Sergio Benitez <sb@sergio.bz>","Alex Crichton <alex@alexcrichton.com>"]
@@ -501,7 +501,7 @@ Origen: https://github.com/orlp/foldhash
 Autores declarados: ["Orson Peters <orsonpeters@gmail.com>"]
 Aviso 66: LICENSE
 ========================================================================
-cargo: form_urlencoded 1.2.2
+cargo: form_urlencoded 1.2.3
 Licencia: MIT OR Apache-2.0
 Origen: https://github.com/servo/rust-url
 Autores declarados: ["The rust-url developers"]
@@ -851,12 +851,11 @@ Autores declarados: []
 Aviso 10: LICENSE-APACHE
 Aviso 107: LICENSE-MIT
 ========================================================================
-cargo: libsqlite3-sys 0.38.2
+cargo: libsqlite3-sys 0.39.1
 Licencia: MIT
 Origen: https://github.com/rusqlite/rusqlite
 Autores declarados: ["The rusqlite developers"]
 Aviso 108: LICENSE
-Aviso 109: sqlcipher/LICENSE
 ========================================================================
 cargo: litemap 0.8.3
 Licencia: Unicode-3.0
@@ -869,7 +868,7 @@ Licencia: MIT OR Apache-2.0
 Origen: https://github.com/Amanieu/parking_lot
 Autores declarados: ["Amanieu d'Antras <amanieu@gmail.com>"]
 Aviso 13: LICENSE-APACHE
-Aviso 110: LICENSE-MIT
+Aviso 109: LICENSE-MIT
 ========================================================================
 cargo: log 0.4.34
 Licencia: MIT OR Apache-2.0
@@ -897,58 +896,58 @@ Licencia: MIT OR Apache-2.0
 Origen: https://github.com/hyperium/mime
 Autores declarados: ["Sean McArthur <sean@seanmonstar.com>"]
 Aviso 13: LICENSE-APACHE
-Aviso 111: LICENSE-MIT
+Aviso 110: LICENSE-MIT
 ========================================================================
 cargo: minisign-verify 0.3.0
 Licencia: MIT
 Origen: https://github.com/jedisct1/rust-minisign-verify
 Autores declarados: ["Frank Denis <github@pureftpd.org>"]
-Aviso 112: LICENSE
+Aviso 111: LICENSE
 ========================================================================
 cargo: miniz_oxide 0.8.9
 Licencia: MIT OR Zlib OR Apache-2.0
 Origen: https://github.com/Frommi/miniz_oxide/tree/master/miniz_oxide
 Autores declarados: ["Frommi <daniil.liferenko@gmail.com>","oyvindln <oyvindln@users.noreply.github.com>","Rich Geldreich richgel99@gmail.com"]
-Aviso 113: LICENSE
+Aviso 112: LICENSE
 Aviso 62: LICENSE-APACHE.md
-Aviso 114: LICENSE-MIT.md
-Aviso 115: LICENSE-ZLIB.md
+Aviso 113: LICENSE-MIT.md
+Aviso 114: LICENSE-ZLIB.md
 ========================================================================
 cargo: miniz_oxide 0.9.1
 Licencia: MIT OR Zlib OR Apache-2.0
 Origen: https://github.com/Frommi/miniz_oxide/tree/master/miniz_oxide
 Autores declarados: ["Frommi <daniil.liferenko@gmail.com>","oyvindln <oyvindln@users.noreply.github.com>","Rich Geldreich richgel99@gmail.com"]
-Aviso 113: LICENSE
+Aviso 112: LICENSE
 Aviso 62: LICENSE-APACHE.md
-Aviso 114: LICENSE-MIT.md
-Aviso 115: LICENSE-ZLIB.md
+Aviso 113: LICENSE-MIT.md
+Aviso 114: LICENSE-ZLIB.md
 ========================================================================
 cargo: mio 1.2.4
 Licencia: MIT
 Origen: https://github.com/tokio-rs/mio
 Autores declarados: ["Carl Lerche <me@carllerche.com>","Thomas de Zeeuw <thomasdezeeuw@gmail.com>","Tokio Contributors <team@tokio.rs>"]
-Aviso 116: LICENSE
+Aviso 115: LICENSE
 ========================================================================
 cargo: muda 0.20.0
 Licencia: Apache-2.0 OR MIT
 Origen: https://github.com/tauri-apps/muda
 Autores declarados: []
 Aviso 13: LICENSE-APACHE
-Aviso 117: LICENSE-MIT
-Aviso 118: LICENSE.spdx
+Aviso 116: LICENSE-MIT
+Aviso 117: LICENSE.spdx
 ========================================================================
 cargo: new_debug_unreachable 1.0.6
 Licencia: MIT
 Origen: https://github.com/mbrubeck/rust-debug-unreachable
 Autores declarados: ["Matt Brubeck <mbrubeck@limpet.net>","Jonathan Reem <jonathan.reem@gmail.com>"]
-Aviso 119: LICENSE-MIT
+Aviso 118: LICENSE-MIT
 ========================================================================
 cargo: num-conv 0.2.2
 Licencia: MIT OR Apache-2.0
 Origen: https://github.com/jhpratt/num-conv
 Autores declarados: ["Jacob Pratt <jacob@jhpratt.dev>"]
 Aviso 62: LICENSE-Apache
-Aviso 120: LICENSE-MIT
+Aviso 119: LICENSE-MIT
 ========================================================================
 cargo: num-traits 0.2.19
 Licencia: MIT OR Apache-2.0
@@ -969,34 +968,34 @@ Licencia: MIT OR Apache-2.0
 Origen: https://github.com/RustCrypto/utils
 Autores declarados: ["RustCrypto Developers"]
 Aviso 11: LICENSE-APACHE
-Aviso 121: LICENSE-MIT
+Aviso 120: LICENSE-MIT
 ========================================================================
 cargo: option-ext 0.2.0
 Licencia: MPL-2.0
 Origen: https://github.com/soc/option-ext.git
 Autores declarados: ["Simon Ochsenreither <simon@ochsenreither.de>"]
-Aviso 122: LICENSE.txt
+Aviso 121: LICENSE.txt
 ========================================================================
 cargo: parking_lot_core 0.9.12
 Licencia: MIT OR Apache-2.0
 Origen: https://github.com/Amanieu/parking_lot
 Autores declarados: ["Amanieu d'Antras <amanieu@gmail.com>"]
 Aviso 13: LICENSE-APACHE
-Aviso 110: LICENSE-MIT
+Aviso 109: LICENSE-MIT
 ========================================================================
 cargo: parking_lot 0.12.5
 Licencia: MIT OR Apache-2.0
 Origen: https://github.com/Amanieu/parking_lot
 Autores declarados: ["Amanieu d'Antras <amanieu@gmail.com>"]
 Aviso 13: LICENSE-APACHE
-Aviso 110: LICENSE-MIT
+Aviso 109: LICENSE-MIT
 ========================================================================
 cargo: password-hash 0.5.0
 Licencia: MIT OR Apache-2.0
 Origen: https://github.com/RustCrypto/traits/tree/master/password-hash
 Autores declarados: ["RustCrypto Developers"]
 Aviso 11: LICENSE-APACHE
-Aviso 123: LICENSE-MIT
+Aviso 122: LICENSE-MIT
 ========================================================================
 cargo: percent-encoding 2.3.2
 Licencia: MIT OR Apache-2.0
@@ -1009,31 +1008,31 @@ cargo: phf_codegen 0.13.1
 Licencia: MIT
 Origen: https://github.com/rust-phf/rust-phf
 Autores declarados: ["Steven Fackler <sfackler@gmail.com>"]
-Aviso 124: LICENSE
+Aviso 123: LICENSE
 ========================================================================
 cargo: phf_generator 0.13.1
 Licencia: MIT
 Origen: https://github.com/rust-phf/rust-phf
 Autores declarados: ["Steven Fackler <sfackler@gmail.com>"]
-Aviso 124: LICENSE
+Aviso 123: LICENSE
 ========================================================================
 cargo: phf_macros 0.13.1
 Licencia: MIT
 Origen: https://github.com/rust-phf/rust-phf
 Autores declarados: ["Steven Fackler <sfackler@gmail.com>"]
-Aviso 124: LICENSE
+Aviso 123: LICENSE
 ========================================================================
 cargo: phf_shared 0.13.1
 Licencia: MIT
 Origen: https://github.com/rust-phf/rust-phf
 Autores declarados: ["Steven Fackler <sfackler@gmail.com>"]
-Aviso 124: LICENSE
+Aviso 123: LICENSE
 ========================================================================
 cargo: phf 0.13.1
 Licencia: MIT
 Origen: https://github.com/rust-phf/rust-phf
 Autores declarados: ["Steven Fackler <sfackler@gmail.com>"]
-Aviso 124: LICENSE
+Aviso 123: LICENSE
 ========================================================================
 cargo: pin-project-lite 0.2.17
 Licencia: Apache-2.0 OR MIT
@@ -1053,21 +1052,21 @@ cargo: plist 1.10.3
 Licencia: MIT
 Origen: https://github.com/ebarnard/rust-plist/
 Autores declarados: ["Ed Barnard <eabarnard@gmail.com>"]
-Aviso 125: LICENCE
+Aviso 124: LICENCE
 ========================================================================
 cargo: png 0.18.1
 Licencia: MIT OR Apache-2.0
 Origen: https://github.com/image-rs/image-png
 Autores declarados: ["The image-rs Developers"]
 Aviso 13: LICENSE-APACHE
-Aviso 126: LICENSE-MIT
+Aviso 125: LICENSE-MIT
 ========================================================================
 cargo: poly1305 0.8.0
 Licencia: Apache-2.0 OR MIT
 Origen: https://github.com/RustCrypto/universal-hashes
 Autores declarados: ["RustCrypto Developers"]
 Aviso 11: LICENSE-APACHE
-Aviso 127: LICENSE-MIT
+Aviso 126: LICENSE-MIT
 ========================================================================
 cargo: potential_utf 0.1.6
 Licencia: Unicode-3.0
@@ -1079,14 +1078,14 @@ cargo: powerfmt 0.2.1
 Licencia: MIT OR Apache-2.0
 Origen: https://github.com/jhpratt/powerfmt
 Autores declarados: ["Jacob Pratt <jacob@jhpratt.dev>"]
-Aviso 128: LICENSE-Apache
-Aviso 129: LICENSE-MIT
+Aviso 127: LICENSE-Apache
+Aviso 128: LICENSE-MIT
 ========================================================================
 cargo: precomputed-hash 0.1.1
 Licencia: MIT
 Origen: https://github.com/emilio/precomputed-hash
 Autores declarados: ["Emilio Cobos Álvarez <emilio@crisal.io>"]
-Aviso 130: LICENSE
+Aviso 129: LICENSE
 ========================================================================
 cargo: proc-macro2 1.0.107
 Licencia: MIT OR Apache-2.0
@@ -1099,7 +1098,7 @@ cargo: quick-xml 0.42.0
 Licencia: MIT
 Origen: https://github.com/tafia/quick-xml
 Autores declarados: []
-Aviso 131: LICENSE-MIT.md
+Aviso 130: LICENSE-MIT.md
 ========================================================================
 cargo: quote 1.0.47
 Licencia: MIT OR Apache-2.0
@@ -1112,17 +1111,17 @@ cargo: rand_core 0.6.4
 Licencia: MIT OR Apache-2.0
 Origen: https://github.com/rust-random/rand
 Autores declarados: ["The Rand Project Developers","The Rust Project Developers"]
-Aviso 132: COPYRIGHT
-Aviso 133: LICENSE-APACHE
-Aviso 134: LICENSE-MIT
+Aviso 131: COPYRIGHT
+Aviso 132: LICENSE-APACHE
+Aviso 133: LICENSE-MIT
 ========================================================================
 cargo: raw-window-handle 0.6.2
 Licencia: MIT OR Apache-2.0 OR Zlib
 Origen: https://github.com/rust-windowing/raw-window-handle
 Autores declarados: ["Osspial <osspial@gmail.com>"]
 Aviso 62: LICENSE-APACHE.md
-Aviso 135: LICENSE-MIT.md
-Aviso 136: LICENSE-ZLIB.md
+Aviso 134: LICENSE-MIT.md
+Aviso 135: LICENSE-ZLIB.md
 ========================================================================
 cargo: ref-cast-impl 1.0.27
 Licencia: MIT OR Apache-2.0
@@ -1151,7 +1150,7 @@ Origen: https://github.com/rust-lang/regex
 Autores declarados: ["The Rust Project Developers","Andrew Gallant <jamslam@gmail.com>"]
 Aviso 13: LICENSE-APACHE
 Aviso 20: LICENSE-MIT
-Aviso 137: src/unicode_tables/LICENSE-UNICODE
+Aviso 136: src/unicode_tables/LICENSE-UNICODE
 ========================================================================
 cargo: regex 1.13.1
 Licencia: MIT OR Apache-2.0
@@ -1164,28 +1163,28 @@ cargo: reqwest 0.13.5
 Licencia: MIT OR Apache-2.0
 Origen: https://github.com/seanmonstar/reqwest
 Autores declarados: ["Sean McArthur <sean@seanmonstar.com>"]
-Aviso 138: LICENSE-APACHE
-Aviso 139: LICENSE-MIT
+Aviso 137: LICENSE-APACHE
+Aviso 138: LICENSE-MIT
 ========================================================================
 cargo: rfd 0.17.2
 Licencia: MIT
 Origen: https://github.com/PolyMeilex/rfd
 Autores declarados: ["Poly <marynczak.bartlomiej@gmail.com>"]
-Aviso 140: LICENSE
-Aviso 141: src/backend/xdg_desktop_portal/window_identifier/LICENSE
+Aviso 139: LICENSE
+Aviso 140: src/backend/xdg_desktop_portal/window_identifier/LICENSE
 ========================================================================
 cargo: ring 0.17.14
 Licencia: Apache-2.0 AND ISC
 Origen: https://github.com/briansmith/ring
 Autores declarados: []
-Aviso 142: LICENSE
-Aviso 143: LICENSE-BoringSSL
-Aviso 144: LICENSE-other-bits
+Aviso 141: LICENSE
+Aviso 142: LICENSE-BoringSSL
+Aviso 143: LICENSE-other-bits
 Aviso 13: src/polyfill/once_cell/LICENSE-APACHE
-Aviso 145: src/polyfill/once_cell/LICENSE-MIT
-Aviso 146: third_party/fiat/LICENSE
+Aviso 144: src/polyfill/once_cell/LICENSE-MIT
+Aviso 145: third_party/fiat/LICENSE
 ========================================================================
-cargo: rusqlite 0.40.2
+cargo: rusqlite 0.41.0
 Licencia: MIT
 Origen: https://github.com/rusqlite/rusqlite
 Autores declarados: ["The rusqlite developers"]
@@ -1196,34 +1195,34 @@ Licencia: MIT OR Apache-2.0
 Origen: https://github.com/djc/rustc-version-rs
 Autores declarados: []
 Aviso 13: LICENSE-APACHE
-Aviso 110: LICENSE-MIT
+Aviso 109: LICENSE-MIT
 ========================================================================
 cargo: rustc-hash 2.1.3
 Licencia: Apache-2.0 OR MIT
 Origen: https://github.com/rust-lang/rustc-hash
 Autores declarados: ["The Rust Project Developers"]
-Aviso 147: LICENSE-APACHE
-Aviso 148: LICENSE-MIT
+Aviso 146: LICENSE-APACHE
+Aviso 147: LICENSE-MIT
 ========================================================================
 cargo: rustls-pki-types 1.16.0
 Licencia: MIT OR Apache-2.0
 Origen: https://github.com/rustls/pki-types
 Autores declarados: []
-Aviso 149: LICENSE-APACHE
-Aviso 150: LICENSE-MIT
+Aviso 148: LICENSE-APACHE
+Aviso 149: LICENSE-MIT
 ========================================================================
 cargo: rustls-platform-verifier 0.7.1
 Licencia: MIT OR Apache-2.0
 Origen: https://github.com/rustls/rustls-platform-verifier
 Autores declarados: []
-Aviso 151: LICENSE-APACHE
-Aviso 152: LICENSE-MIT
+Aviso 150: LICENSE-APACHE
+Aviso 151: LICENSE-MIT
 ========================================================================
 cargo: rustls-webpki 0.103.17
 Licencia: ISC
 Origen: https://github.com/rustls/webpki
 Autores declarados: []
-Aviso 153: LICENSE
+Aviso 152: LICENSE
 ========================================================================
 cargo: rustls 0.23.46
 Licencia: Apache-2.0 OR ISC OR MIT
@@ -1245,51 +1244,51 @@ Licencia: Apache-2.0 OR BSL-1.0
 Origen: https://github.com/dtolnay/ryu
 Autores declarados: ["David Tolnay <dtolnay@gmail.com>"]
 Aviso 10: LICENSE-APACHE
-Aviso 154: LICENSE-BOOST
+Aviso 153: LICENSE-BOOST
 ========================================================================
 cargo: same-file 1.0.6
 Licencia: Unlicense/MIT
 Origen: https://github.com/BurntSushi/same-file
 Autores declarados: ["Andrew Gallant <jamslam@gmail.com>"]
 Aviso 6: COPYING
-Aviso 155: LICENSE-MIT
+Aviso 154: LICENSE-MIT
 ========================================================================
 cargo: schemars_derive 0.8.22
 Licencia: MIT
 Origen: https://github.com/GREsau/schemars
 Autores declarados: ["Graham Esau <gesau@hotmail.co.uk>"]
-Aviso 156: LICENSE
+Aviso 155: LICENSE
 ========================================================================
 cargo: schemars 0.8.22
 Licencia: MIT
 Origen: https://github.com/GREsau/schemars
 Autores declarados: ["Graham Esau <gesau@hotmail.co.uk>"]
-Aviso 156: LICENSE
+Aviso 155: LICENSE
 ========================================================================
 cargo: schemars 0.9.0
 Licencia: MIT
 Origen: https://github.com/GREsau/schemars
 Autores declarados: ["Graham Esau <gesau@hotmail.co.uk>"]
-Aviso 156: LICENSE
+Aviso 155: LICENSE
 ========================================================================
 cargo: schemars 1.2.3
 Licencia: MIT
 Origen: https://github.com/GREsau/schemars
 Autores declarados: ["Graham Esau <gesau@hotmail.co.uk>"]
-Aviso 156: LICENSE
+Aviso 155: LICENSE
 ========================================================================
 cargo: scopeguard 1.2.0
 Licencia: MIT OR Apache-2.0
 Origen: https://github.com/bluss/scopeguard
 Autores declarados: ["bluss"]
 Aviso 13: LICENSE-APACHE
-Aviso 157: LICENSE-MIT
+Aviso 156: LICENSE-MIT
 ========================================================================
 cargo: selectors 0.38.0
 Licencia: MPL-2.0
 Origen: https://github.com/servo/stylo
 Autores declarados: ["The Servo Project Developers"]
-Aviso 158: upstream/LICENSE
+Aviso 157: upstream/LICENSE
 ========================================================================
 cargo: semver 1.0.28
 Licencia: MIT OR Apache-2.0
@@ -1337,29 +1336,29 @@ cargo: serde_spanned 1.1.2
 Licencia: MIT OR Apache-2.0
 Origen: https://github.com/toml-rs/toml
 Autores declarados: []
-Aviso 159: LICENSE-APACHE
-Aviso 160: LICENSE-MIT
+Aviso 158: LICENSE-APACHE
+Aviso 159: LICENSE-MIT
 ========================================================================
 cargo: serde_urlencoded 0.7.1
 Licencia: MIT/Apache-2.0
 Origen: https://github.com/nox/serde_urlencoded
 Autores declarados: ["Anthony Ramine <n.oxyde@gmail.com>"]
 Aviso 10: LICENSE-APACHE
-Aviso 161: LICENSE-MIT
+Aviso 160: LICENSE-MIT
 ========================================================================
 cargo: serde_with_macros 3.24.0
 Licencia: MIT OR Apache-2.0
 Origen: https://github.com/jonasbb/serde_with/
 Autores declarados: ["Jonas Bushart"]
 Aviso 13: LICENSE-APACHE
-Aviso 162: LICENSE-MIT
+Aviso 161: LICENSE-MIT
 ========================================================================
 cargo: serde_with 3.24.0
 Licencia: MIT OR Apache-2.0
 Origen: https://github.com/jonasbb/serde_with/
 Autores declarados: ["Jonas Bushart","Marcin Kaźmierczak"]
 Aviso 13: LICENSE-APACHE
-Aviso 162: LICENSE-MIT
+Aviso 161: LICENSE-MIT
 ========================================================================
 cargo: serde-untagged 0.1.9
 Licencia: MIT OR Apache-2.0
@@ -1379,15 +1378,15 @@ cargo: serialize-to-javascript-impl 0.1.2
 Licencia: MIT OR Apache-2.0
 Origen: https://github.com/chippers/serialize-to-javascript
 Autores declarados: ["Chip Reed <chip@chip.sh>"]
-Aviso 151: LICENSE-APACHE
-Aviso 163: LICENSE-MIT
+Aviso 150: LICENSE-APACHE
+Aviso 162: LICENSE-MIT
 ========================================================================
 cargo: serialize-to-javascript 0.1.2
 Licencia: MIT OR Apache-2.0
 Origen: https://github.com/chippers/serialize-to-javascript
 Autores declarados: ["Chip Reed <chip@chip.sh>"]
-Aviso 151: LICENSE-APACHE
-Aviso 163: LICENSE-MIT
+Aviso 150: LICENSE-APACHE
+Aviso 162: LICENSE-MIT
 ========================================================================
 cargo: servo_arc 0.4.3
 Licencia: MIT OR Apache-2.0
@@ -1401,41 +1400,41 @@ Licencia: MIT OR Apache-2.0
 Origen: https://github.com/RustCrypto/hashes
 Autores declarados: ["RustCrypto Developers"]
 Aviso 11: LICENSE-APACHE
-Aviso 164: LICENSE-MIT
+Aviso 163: LICENSE-MIT
 ========================================================================
 cargo: shlex 2.0.1
 Licencia: MIT OR Apache-2.0
 Origen: https://github.com/comex/rust-shlex
 Autores declarados: ["comex <comexk@gmail.com>","Fenhl <fenhl@fenhl.net>","Adrian Taylor <adetaylor@chromium.org>","Alex Touchet <alextouchet@outlook.com>","Daniel Parks <dp+git@oxidized.org>","Garrett Berg <googberg@gmail.com>"]
-Aviso 165: LICENSE-APACHE
-Aviso 166: LICENSE-MIT
+Aviso 164: LICENSE-APACHE
+Aviso 165: LICENSE-MIT
 ========================================================================
 cargo: simd-adler32 0.3.10
 Licencia: MIT
 Origen: https://github.com/mcountryman/simd-adler32
 Autores declarados: ["Marvin Countryman <me@maar.vin>"]
-Aviso 167: LICENSE.md
+Aviso 166: LICENSE.md
 ========================================================================
 cargo: siphasher 1.0.4
 Licencia: MIT OR Apache-2.0
 Origen: https://github.com/jedisct1/rust-siphash
 Autores declarados: ["Frank Denis <github@pureftpd.org>"]
-Aviso 168: COPYING
-Aviso 169: LICENSE-APACHE
-Aviso 170: LICENSE-MIT
+Aviso 167: COPYING
+Aviso 168: LICENSE-APACHE
+Aviso 169: LICENSE-MIT
 ========================================================================
 cargo: slab 0.4.12
 Licencia: MIT
 Origen: https://github.com/tokio-rs/slab
 Autores declarados: ["Carl Lerche <me@carllerche.com>"]
-Aviso 171: LICENSE
+Aviso 170: LICENSE
 ========================================================================
 cargo: smallvec 1.16.4
 Licencia: MIT OR Apache-2.0
 Origen: https://github.com/servo/rust-smallvec
 Autores declarados: ["The Servo Project Developers"]
 Aviso 13: LICENSE-APACHE
-Aviso 172: LICENSE-MIT
+Aviso 171: LICENSE-MIT
 ========================================================================
 cargo: socket2 0.6.5
 Licencia: MIT OR Apache-2.0
@@ -1448,50 +1447,50 @@ cargo: softbuffer 0.4.8
 Licencia: MIT OR Apache-2.0
 Origen: https://github.com/rust-windowing/softbuffer
 Autores declarados: []
-Aviso 173: LICENSE-APACHE
-Aviso 174: LICENSE-MIT
+Aviso 172: LICENSE-APACHE
+Aviso 173: LICENSE-MIT
 ========================================================================
 cargo: stable_deref_trait 1.2.1
 Licencia: MIT OR Apache-2.0
 Origen: https://github.com/storyyeller/stable_deref_trait
 Autores declarados: ["Robert Grosse <n210241048576@gmail.com>"]
 Aviso 13: LICENSE-APACHE
-Aviso 175: LICENSE-MIT
+Aviso 174: LICENSE-MIT
 ========================================================================
 cargo: static_vcruntime 3.0.0
 Licencia: MIT OR Apache-2.0 OR Zlib
 Origen: https://github.com/ChrisDenton/static_vcruntime
 Autores declarados: []
-Aviso 176: LICENSE
-Aviso 177: LICENSE-APACHE
-Aviso 178: LICENSE-MIT
-Aviso 179: LICENSE-ZLIB
+Aviso 175: LICENSE
+Aviso 176: LICENSE-APACHE
+Aviso 177: LICENSE-MIT
+Aviso 178: LICENSE-ZLIB
 ========================================================================
 cargo: string_cache_codegen 0.6.1
 Licencia: MIT OR Apache-2.0
 Origen: https://github.com/servo/string-cache
 Autores declarados: ["The Servo Project Developers"]
 Aviso 13: LICENSE-APACHE
-Aviso 180: LICENSE-MIT
+Aviso 179: LICENSE-MIT
 ========================================================================
 cargo: string_cache 0.9.0
 Licencia: MIT OR Apache-2.0
 Origen: https://github.com/servo/string-cache
 Autores declarados: ["The Servo Project Developers"]
 Aviso 13: LICENSE-APACHE
-Aviso 180: LICENSE-MIT
+Aviso 179: LICENSE-MIT
 ========================================================================
 cargo: strsim 0.11.1
 Licencia: MIT
 Origen: https://github.com/rapidfuzz/strsim-rs
 Autores declarados: ["Danny Guo <danny@dannyguo.com>","maxbachmann <oss@maxbachmann.de>"]
-Aviso 181: LICENSE
+Aviso 180: LICENSE
 ========================================================================
 cargo: subtle 2.6.1
 Licencia: BSD-3-Clause
 Origen: https://github.com/dalek-cryptography/subtle
 Autores declarados: ["Isis Lovecruft <isis@patternsinthevoid.net>","Henry de Valence <hdevalence@hdevalence.ca>"]
-Aviso 182: LICENSE
+Aviso 181: LICENSE
 ========================================================================
 cargo: syn 2.0.119
 Licencia: MIT OR Apache-2.0
@@ -1517,107 +1516,107 @@ cargo: synstructure 0.14.0
 Licencia: MIT
 Origen: https://github.com/mystor/synstructure
 Autores declarados: ["Nika Layzell <nika@thelayzells.com>"]
-Aviso 183: LICENSE
+Aviso 182: LICENSE
 ========================================================================
 cargo: tao 0.37.2
 Licencia: Apache-2.0
 Origen: https://github.com/tauri-apps/tao
 Autores declarados: ["Tauri Programme within The Commons Conservancy","The winit contributors"]
 Aviso 55: LICENSE
-Aviso 184: LICENSE.spdx
+Aviso 183: LICENSE.spdx
 ========================================================================
 cargo: tauri-build 2.7.4
 Licencia: Apache-2.0 OR MIT
 Origen: https://github.com/tauri-apps/tauri
 Autores declarados: ["Tauri Programme within The Commons Conservancy"]
 Aviso 62: LICENSE-APACHE-2.0
-Aviso 185: LICENSE-MIT
+Aviso 184: LICENSE-MIT
 ========================================================================
 cargo: tauri-codegen 2.7.4
 Licencia: Apache-2.0 OR MIT
 Origen: https://github.com/tauri-apps/tauri
 Autores declarados: ["Tauri Programme within The Commons Conservancy"]
 Aviso 62: LICENSE-APACHE-2.0
-Aviso 185: LICENSE-MIT
+Aviso 184: LICENSE-MIT
 ========================================================================
 cargo: tauri-macros 2.7.4
 Licencia: Apache-2.0 OR MIT
 Origen: https://github.com/tauri-apps/tauri
 Autores declarados: ["Tauri Programme within The Commons Conservancy"]
 Aviso 62: LICENSE-APACHE-2.0
-Aviso 185: LICENSE-MIT
+Aviso 184: LICENSE-MIT
 ========================================================================
 cargo: tauri-plugin-dialog 2.8.4
 Licencia: Apache-2.0 OR MIT
 Origen: https://github.com/tauri-apps/plugins-workspace
 Autores declarados: ["Tauri Programme within The Commons Conservancy"]
-Aviso 186: LICENSE.spdx
+Aviso 185: LICENSE.spdx
 ========================================================================
 cargo: tauri-plugin-fs 2.7.1
 Licencia: Apache-2.0 OR MIT
 Origen: https://github.com/tauri-apps/plugins-workspace
 Autores declarados: ["Tauri Programme within The Commons Conservancy"]
-Aviso 186: LICENSE.spdx
+Aviso 185: LICENSE.spdx
 ========================================================================
 cargo: tauri-plugin-updater 2.14.1
 Licencia: Apache-2.0 OR MIT
 Origen: https://github.com/tauri-apps/plugins-workspace
 Autores declarados: ["Tauri Programme within The Commons Conservancy"]
-Aviso 186: LICENSE.spdx
+Aviso 185: LICENSE.spdx
 ========================================================================
 cargo: tauri-plugin 2.7.2
 Licencia: Apache-2.0 OR MIT
 Origen: https://github.com/tauri-apps/tauri
 Autores declarados: ["Tauri Programme within The Commons Conservancy"]
-Aviso 187: upstream/LICENSE-MIT
+Aviso 186: upstream/LICENSE-MIT
 ========================================================================
 cargo: tauri-runtime-wry 2.12.3
 Licencia: Apache-2.0 OR MIT
 Origen: https://github.com/tauri-apps/tauri
 Autores declarados: ["Tauri Programme within The Commons Conservancy"]
 Aviso 62: LICENSE-APACHE-2.0
-Aviso 185: LICENSE-MIT
+Aviso 184: LICENSE-MIT
 ========================================================================
 cargo: tauri-runtime 2.12.2
 Licencia: Apache-2.0 OR MIT
 Origen: https://github.com/tauri-apps/tauri
 Autores declarados: ["Tauri Programme within The Commons Conservancy"]
 Aviso 62: LICENSE-APACHE-2.0
-Aviso 185: LICENSE-MIT
+Aviso 184: LICENSE-MIT
 ========================================================================
 cargo: tauri-utils 2.10.2
 Licencia: Apache-2.0 OR MIT
 Origen: https://github.com/tauri-apps/tauri
 Autores declarados: ["Tauri Programme within The Commons Conservancy"]
 Aviso 62: LICENSE-APACHE-2.0
-Aviso 185: LICENSE-MIT
+Aviso 184: LICENSE-MIT
 ========================================================================
 cargo: tauri-winres 0.3.7
 Licencia: MIT
 Origen: https://github.com/tauri-apps/winres
 Autores declarados: ["Tauri Programme within The Commons Conservancy","Max Resch <resch.max@gmail.com>"]
-Aviso 188: LICENSE
+Aviso 187: LICENSE
 ========================================================================
 cargo: tauri 2.12.5
 Licencia: Apache-2.0 OR MIT
 Origen: https://github.com/tauri-apps/tauri
 Autores declarados: ["Tauri Programme within The Commons Conservancy"]
 Aviso 62: LICENSE-APACHE-2.0
-Aviso 185: LICENSE-MIT
+Aviso 184: LICENSE-MIT
 ========================================================================
 cargo: tempfile 3.27.0
 Licencia: MIT OR Apache-2.0
 Origen: https://github.com/Stebalien/tempfile
 Autores declarados: ["Steven Allen <steven@stebalien.com>","The Rust Project Developers","Ashley Mannix <ashleymannix@live.com.au>","Jason White <me@jasonwhite.io>"]
 Aviso 13: LICENSE-APACHE
-Aviso 189: LICENSE-MIT
+Aviso 188: LICENSE-MIT
 ========================================================================
 cargo: tendril 0.5.1
 Licencia: MIT OR Apache-2.0
 Origen: https://github.com/servo/html5ever
 Autores declarados: ["Keegan McAllister <mcallister.keegan@gmail.com>","Simon Sapin <simon.sapin@exyr.org>","Chris Morgan <me@chrismorgan.info>"]
 Aviso 13: LICENSE-APACHE
-Aviso 190: LICENSE-MIT
+Aviso 189: LICENSE-MIT
 ========================================================================
 cargo: thiserror-impl 2.0.21
 Licencia: MIT OR Apache-2.0
@@ -1638,21 +1637,21 @@ Licencia: MIT OR Apache-2.0
 Origen: https://github.com/time-rs/time
 Autores declarados: ["Jacob Pratt <open-source@jhpratt.dev>","Time contributors"]
 Aviso 62: LICENSE-Apache
-Aviso 191: LICENSE-MIT
+Aviso 190: LICENSE-MIT
 ========================================================================
 cargo: time-macros 0.2.32
 Licencia: MIT OR Apache-2.0
 Origen: https://github.com/time-rs/time
 Autores declarados: ["Jacob Pratt <open-source@jhpratt.dev>","Time contributors"]
 Aviso 62: LICENSE-Apache
-Aviso 191: LICENSE-MIT
+Aviso 190: LICENSE-MIT
 ========================================================================
 cargo: time 0.3.55
 Licencia: MIT OR Apache-2.0
 Origen: https://github.com/time-rs/time
 Autores declarados: ["Jacob Pratt <open-source@jhpratt.dev>","Time contributors"]
 Aviso 62: LICENSE-Apache
-Aviso 191: LICENSE-MIT
+Aviso 190: LICENSE-MIT
 ========================================================================
 cargo: tinystr 0.8.5
 Licencia: Unicode-3.0
@@ -1664,107 +1663,107 @@ cargo: tinyvec 1.13.3
 Licencia: Zlib OR Apache-2.0 OR MIT
 Origen: https://github.com/Lokathor/tinyvec
 Autores declarados: ["Lokathor <zefria@gmail.com>"]
-Aviso 169: LICENSE-APACHE.md
-Aviso 192: LICENSE-MIT.md
-Aviso 193: LICENSE-ZLIB.md
+Aviso 168: LICENSE-APACHE.md
+Aviso 191: LICENSE-MIT.md
+Aviso 192: LICENSE-ZLIB.md
 ========================================================================
 cargo: tokio-rustls 0.26.6
 Licencia: MIT OR Apache-2.0
 Origen: https://github.com/rustls/tokio-rustls
 Autores declarados: []
-Aviso 194: LICENSE-APACHE
-Aviso 195: LICENSE-MIT
+Aviso 193: LICENSE-APACHE
+Aviso 194: LICENSE-MIT
 ========================================================================
 cargo: tokio-util 0.7.20
 Licencia: MIT
 Origen: https://github.com/tokio-rs/tokio
 Autores declarados: ["Tokio Contributors <team@tokio.rs>"]
-Aviso 196: LICENSE
+Aviso 195: LICENSE
 ========================================================================
 cargo: tokio 1.54.1
 Licencia: MIT
 Origen: https://github.com/tokio-rs/tokio
 Autores declarados: ["Tokio Contributors <team@tokio.rs>"]
-Aviso 196: LICENSE
+Aviso 195: LICENSE
 ========================================================================
 cargo: toml_datetime 1.1.2+spec-1.1.0
 Licencia: MIT OR Apache-2.0
 Origen: https://github.com/toml-rs/toml
 Autores declarados: []
-Aviso 159: LICENSE-APACHE
-Aviso 160: LICENSE-MIT
+Aviso 158: LICENSE-APACHE
+Aviso 159: LICENSE-MIT
 ========================================================================
 cargo: toml_parser 1.1.5+spec-1.1.0
 Licencia: MIT OR Apache-2.0
 Origen: https://github.com/toml-rs/toml
 Autores declarados: []
-Aviso 159: LICENSE-APACHE
-Aviso 160: LICENSE-MIT
+Aviso 158: LICENSE-APACHE
+Aviso 159: LICENSE-MIT
 ========================================================================
 cargo: toml_writer 1.1.3+spec-1.1.0
 Licencia: MIT OR Apache-2.0
 Origen: https://github.com/toml-rs/toml
 Autores declarados: []
-Aviso 159: LICENSE-APACHE
-Aviso 160: LICENSE-MIT
+Aviso 158: LICENSE-APACHE
+Aviso 159: LICENSE-MIT
 ========================================================================
 cargo: toml 1.1.8+spec-1.1.0
 Licencia: MIT OR Apache-2.0
 Origen: https://github.com/toml-rs/toml
 Autores declarados: []
-Aviso 159: LICENSE-APACHE
-Aviso 160: LICENSE-MIT
+Aviso 158: LICENSE-APACHE
+Aviso 159: LICENSE-MIT
 ========================================================================
 cargo: tower-http 0.6.11
 Licencia: MIT
 Origen: https://github.com/tower-rs/tower-http
 Autores declarados: ["Tower Maintainers <team@tower-rs.com>"]
-Aviso 197: LICENSE
+Aviso 196: LICENSE
 ========================================================================
 cargo: tower-layer 0.3.3
 Licencia: MIT
 Origen: https://github.com/tower-rs/tower
 Autores declarados: ["Tower Maintainers <team@tower-rs.com>"]
-Aviso 198: LICENSE
+Aviso 197: LICENSE
 ========================================================================
 cargo: tower-service 0.3.3
 Licencia: MIT
 Origen: https://github.com/tower-rs/tower
 Autores declarados: ["Tower Maintainers <team@tower-rs.com>"]
-Aviso 198: LICENSE
+Aviso 197: LICENSE
 ========================================================================
 cargo: tower 0.5.3
 Licencia: MIT
 Origen: https://github.com/tower-rs/tower
 Autores declarados: ["Tower Maintainers <team@tower-rs.com>"]
-Aviso 198: LICENSE
+Aviso 197: LICENSE
 ========================================================================
 cargo: tracing-core 0.1.36
 Licencia: MIT
 Origen: https://github.com/tokio-rs/tracing
 Autores declarados: ["Tokio Contributors <team@tokio.rs>"]
-Aviso 199: LICENSE
-Aviso 200: src/spin/LICENSE
+Aviso 198: LICENSE
+Aviso 199: src/spin/LICENSE
 ========================================================================
 cargo: tracing 0.1.44
 Licencia: MIT
 Origen: https://github.com/tokio-rs/tracing
 Autores declarados: ["Eliza Weisman <eliza@buoyant.io>","Tokio Contributors <team@tokio.rs>"]
-Aviso 199: LICENSE
+Aviso 198: LICENSE
 ========================================================================
 cargo: tray-icon 0.25.1
 Licencia: MIT OR Apache-2.0
 Origen: https://github.com/tauri-apps/tray-icon
 Autores declarados: []
 Aviso 13: LICENSE-APACHE
-Aviso 117: LICENSE-MIT
-Aviso 201: LICENSE.spdx
+Aviso 116: LICENSE-MIT
+Aviso 200: LICENSE.spdx
 ========================================================================
 cargo: try-lock 0.2.5
 Licencia: MIT
 Origen: https://github.com/seanmonstar/try-lock
 Autores declarados: ["Sean McArthur <sean@seanmonstar.com>"]
-Aviso 202: LICENSE
+Aviso 201: LICENSE
 ========================================================================
 cargo: typed-path 0.13.0
 Licencia: MIT OR Apache-2.0
@@ -1784,9 +1783,9 @@ cargo: typenum 1.20.1
 Licencia: MIT OR Apache-2.0
 Origen: https://github.com/paholg/typenum
 Autores declarados: []
-Aviso 203: LICENSE
-Aviso 204: LICENSE-APACHE
-Aviso 205: LICENSE-MIT
+Aviso 202: LICENSE
+Aviso 203: LICENSE-APACHE
+Aviso 204: LICENSE-MIT
 ========================================================================
 cargo: unicode-ident 1.0.27
 Licencia: (MIT OR Apache-2.0) AND Unicode-3.0
@@ -1794,13 +1793,13 @@ Origen: https://github.com/dtolnay/unicode-ident
 Autores declarados: ["David Tolnay <dtolnay@gmail.com>"]
 Aviso 10: LICENSE-APACHE
 Aviso 3: LICENSE-MIT
-Aviso 206: LICENSE-UNICODE
+Aviso 205: LICENSE-UNICODE
 ========================================================================
 cargo: unicode-segmentation 1.13.3
 Licencia: MIT OR Apache-2.0
 Origen: https://github.com/unicode-rs/unicode-segmentation
 Autores declarados: ["kwantam <kwantam@gmail.com>","Manish Goregaokar <manishsmail@gmail.com>"]
-Aviso 207: COPYRIGHT
+Aviso 206: COPYRIGHT
 Aviso 13: LICENSE-APACHE
 Aviso 78: LICENSE-MIT
 ========================================================================
@@ -1809,15 +1808,15 @@ Licencia: MIT OR Apache-2.0
 Origen: https://github.com/RustCrypto/traits
 Autores declarados: ["RustCrypto Developers"]
 Aviso 11: LICENSE-APACHE
-Aviso 208: LICENSE-MIT
+Aviso 207: LICENSE-MIT
 ========================================================================
 cargo: untrusted 0.9.0
 Licencia: ISC
 Origen: https://github.com/briansmith/untrusted
 Autores declarados: ["Brian Smith <brian@briansmith.org>"]
-Aviso 209: LICENSE.txt
+Aviso 208: LICENSE.txt
 ========================================================================
-cargo: url 2.5.8
+cargo: url 2.5.9
 Licencia: MIT OR Apache-2.0
 Origen: https://github.com/servo/rust-url
 Autores declarados: ["The rust-url developers"]
@@ -1828,48 +1827,48 @@ cargo: urlpattern 0.6.0
 Licencia: MIT
 Origen: https://github.com/denoland/rust-urlpattern
 Autores declarados: ["the Deno authors","crowlKats <crowlkats@toaxl.com>"]
-Aviso 210: LICENSE
+Aviso 209: LICENSE
 ========================================================================
 cargo: utf8_iter 1.0.4
 Licencia: Apache-2.0 OR MIT
 Origen: https://github.com/hsivonen/utf8_iter
 Autores declarados: ["Henri Sivonen <hsivonen@hsivonen.fi>"]
-Aviso 211: COPYRIGHT
-Aviso 169: LICENSE-APACHE
-Aviso 212: LICENSE-MIT
+Aviso 210: COPYRIGHT
+Aviso 168: LICENSE-APACHE
+Aviso 211: LICENSE-MIT
 ========================================================================
 cargo: uuid 1.29.0
 Licencia: Apache-2.0 OR MIT
 Origen: https://github.com/uuid-rs/uuid
 Autores declarados: ["Ashley Mannix<ashleymannix@live.com.au>","Dylan DPC<dylan.dpc@gmail.com>","Hunar Roop Kahlon<hunar.roop@gmail.com>"]
 Aviso 13: LICENSE-APACHE
-Aviso 213: LICENSE-MIT
+Aviso 212: LICENSE-MIT
 ========================================================================
 cargo: vcpkg 0.2.15
 Licencia: MIT/Apache-2.0
 Origen: https://github.com/mcgoo/vcpkg-rs
 Autores declarados: ["Jim McGrath <jimmc2@gmail.com>"]
-Aviso 214: LICENSE-APACHE
-Aviso 215: LICENSE-MIT
+Aviso 213: LICENSE-APACHE
+Aviso 214: LICENSE-MIT
 ========================================================================
 cargo: version_check 0.9.5
 Licencia: MIT/Apache-2.0
 Origen: https://github.com/SergioBenitez/version_check
 Autores declarados: ["Sergio Benitez <sb@sergio.bz>"]
 Aviso 13: LICENSE-APACHE
-Aviso 216: LICENSE-MIT
+Aviso 215: LICENSE-MIT
 ========================================================================
 cargo: vswhom-sys 0.1.3
 Licencia: MIT
 Origen: https://github.com/nabijaczleweli/vswhom-sys.rs
 Autores declarados: ["наб <nabijaczleweli@nabijaczleweli.xyz>","forrestsmithfb <forrest.smith@fb.com>"]
-Aviso 217: LICENSE
+Aviso 216: LICENSE
 ========================================================================
 cargo: vswhom 0.1.0
 Licencia: MIT
 Origen: https://github.com/nabijaczleweli/vswhom.rs
 Autores declarados: ["nabijaczleweli <nabijaczleweli@gmail.com>"]
-Aviso 217: LICENSE
+Aviso 216: LICENSE
 ========================================================================
 cargo: walkdir 2.5.0
 Licencia: Unlicense/MIT
@@ -1882,7 +1881,7 @@ cargo: want 0.3.2
 Licencia: MIT
 Origen: https://github.com/seanmonstar/want
 Autores declarados: ["Sean McArthur <sean@seanmonstar.com>"]
-Aviso 218: LICENSE
+Aviso 217: LICENSE
 ========================================================================
 cargo: web_atoms 0.2.6
 Licencia: MIT OR Apache-2.0
@@ -1895,158 +1894,158 @@ cargo: web-time 1.1.0
 Licencia: MIT OR Apache-2.0
 Origen: https://github.com/daxpedda/web-time
 Autores declarados: []
-Aviso 219: LICENSE-APACHE
-Aviso 220: LICENSE-MIT
+Aviso 218: LICENSE-APACHE
+Aviso 219: LICENSE-MIT
 ========================================================================
 cargo: webview2-com-macros 0.8.1
 Licencia: MIT
 Origen: https://github.com/wravery/webview2-rs
 Autores declarados: []
-Aviso 221: upstream/LICENSE
+Aviso 220: upstream/LICENSE
 ========================================================================
 cargo: webview2-com-sys 0.39.1
 Licencia: MIT
 Origen: https://github.com/wravery/webview2-rs
 Autores declarados: []
-Aviso 221: upstream/LICENSE
+Aviso 220: upstream/LICENSE
 ========================================================================
 cargo: webview2-com 0.39.1
 Licencia: MIT
 Origen: https://github.com/wravery/webview2-rs
 Autores declarados: []
-Aviso 221: upstream/LICENSE
+Aviso 220: upstream/LICENSE
 ========================================================================
 cargo: winapi-util 0.1.11
 Licencia: Unlicense OR MIT
 Origen: https://github.com/BurntSushi/winapi-util
 Autores declarados: ["Andrew Gallant <jamslam@gmail.com>"]
 Aviso 6: COPYING
-Aviso 155: LICENSE-MIT
+Aviso 154: LICENSE-MIT
 ========================================================================
 cargo: window-vibrancy 0.8.1
 Licencia: Apache-2.0 OR MIT
 Origen: https://github.com/tauri-apps/tauri-plugin-vibrancy
 Autores declarados: ["Tauri Programme within The Commons Conservancy"]
 Aviso 13: LICENSE-APACHE
-Aviso 222: LICENSE-MIT
-Aviso 223: LICENSE.spdx
+Aviso 221: LICENSE-MIT
+Aviso 222: LICENSE.spdx
 ========================================================================
 cargo: windows-collections 0.3.2
 Licencia: MIT OR Apache-2.0
 Origen: https://github.com/microsoft/windows-rs
 Autores declarados: []
-Aviso 224: license-apache-2.0
-Aviso 225: license-mit
+Aviso 223: license-apache-2.0
+Aviso 224: license-mit
 ========================================================================
 cargo: windows-core 0.62.2
 Licencia: MIT OR Apache-2.0
 Origen: https://github.com/microsoft/windows-rs
 Autores declarados: []
-Aviso 224: license-apache-2.0
-Aviso 225: license-mit
+Aviso 223: license-apache-2.0
+Aviso 224: license-mit
 ========================================================================
 cargo: windows-future 0.3.2
 Licencia: MIT OR Apache-2.0
 Origen: https://github.com/microsoft/windows-rs
 Autores declarados: []
-Aviso 224: license-apache-2.0
-Aviso 225: license-mit
+Aviso 223: license-apache-2.0
+Aviso 224: license-mit
 ========================================================================
 cargo: windows-implement 0.60.2
 Licencia: MIT OR Apache-2.0
 Origen: https://github.com/microsoft/windows-rs
 Autores declarados: []
-Aviso 224: license-apache-2.0
-Aviso 225: license-mit
+Aviso 223: license-apache-2.0
+Aviso 224: license-mit
 ========================================================================
 cargo: windows-interface 0.59.3
 Licencia: MIT OR Apache-2.0
 Origen: https://github.com/microsoft/windows-rs
 Autores declarados: []
-Aviso 224: license-apache-2.0
-Aviso 225: license-mit
+Aviso 223: license-apache-2.0
+Aviso 224: license-mit
 ========================================================================
 cargo: windows-link 0.2.1
 Licencia: MIT OR Apache-2.0
 Origen: https://github.com/microsoft/windows-rs
 Autores declarados: []
-Aviso 224: license-apache-2.0
-Aviso 225: license-mit
+Aviso 223: license-apache-2.0
+Aviso 224: license-mit
 ========================================================================
 cargo: windows-native-keyring-store 1.1.0
 Licencia: MIT OR Apache-2.0
 Origen: https://github.com/open-source-cooperative/windows-native-keyring-store.git
 Autores declarados: ["Daniel Brotsky <dev@brotsky.com>"]
-Aviso 226: LICENSE-APACHE
-Aviso 227: LICENSE-MIT
+Aviso 225: LICENSE-APACHE
+Aviso 226: LICENSE-MIT
 ========================================================================
 cargo: windows-numerics 0.3.1
 Licencia: MIT OR Apache-2.0
 Origen: https://github.com/microsoft/windows-rs
 Autores declarados: []
-Aviso 224: license-apache-2.0
-Aviso 225: license-mit
+Aviso 223: license-apache-2.0
+Aviso 224: license-mit
 ========================================================================
 cargo: windows-registry 0.6.1
 Licencia: MIT OR Apache-2.0
 Origen: https://github.com/microsoft/windows-rs
 Autores declarados: []
-Aviso 224: license-apache-2.0
-Aviso 225: license-mit
+Aviso 223: license-apache-2.0
+Aviso 224: license-mit
 ========================================================================
 cargo: windows-result 0.4.1
 Licencia: MIT OR Apache-2.0
 Origen: https://github.com/microsoft/windows-rs
 Autores declarados: []
-Aviso 224: license-apache-2.0
-Aviso 225: license-mit
+Aviso 223: license-apache-2.0
+Aviso 224: license-mit
 ========================================================================
 cargo: windows-strings 0.5.1
 Licencia: MIT OR Apache-2.0
 Origen: https://github.com/microsoft/windows-rs
 Autores declarados: []
-Aviso 224: license-apache-2.0
-Aviso 225: license-mit
+Aviso 223: license-apache-2.0
+Aviso 224: license-mit
 ========================================================================
 cargo: windows-sys 0.61.2
 Licencia: MIT OR Apache-2.0
 Origen: https://github.com/microsoft/windows-rs
 Autores declarados: []
-Aviso 224: license-apache-2.0
-Aviso 225: license-mit
+Aviso 223: license-apache-2.0
+Aviso 224: license-mit
 ========================================================================
 cargo: windows-threading 0.2.1
 Licencia: MIT OR Apache-2.0
 Origen: https://github.com/microsoft/windows-rs
 Autores declarados: []
-Aviso 224: license-apache-2.0
-Aviso 225: license-mit
+Aviso 223: license-apache-2.0
+Aviso 224: license-mit
 ========================================================================
 cargo: windows-version 0.1.7
 Licencia: MIT OR Apache-2.0
 Origen: https://github.com/microsoft/windows-rs
 Autores declarados: []
-Aviso 224: license-apache-2.0
-Aviso 225: license-mit
+Aviso 223: license-apache-2.0
+Aviso 224: license-mit
 ========================================================================
 cargo: windows 0.62.2
 Licencia: MIT OR Apache-2.0
 Origen: https://github.com/microsoft/windows-rs
 Autores declarados: []
-Aviso 224: license-apache-2.0
-Aviso 225: license-mit
+Aviso 223: license-apache-2.0
+Aviso 224: license-mit
 ========================================================================
 cargo: winnow 1.0.4
 Licencia: MIT
 Origen: https://github.com/winnow-rs/winnow
 Autores declarados: []
-Aviso 228: LICENSE-MIT
+Aviso 227: LICENSE-MIT
 ========================================================================
 cargo: winreg 0.56.0
 Licencia: MIT
 Origen: https://github.com/gentoo90/winreg-rs
 Autores declarados: ["Igor Shaula <gentoo90@gmail.com>"]
-Aviso 229: LICENSE
+Aviso 228: LICENSE
 ========================================================================
 cargo: writeable 0.6.4
 Licencia: Unicode-3.0
@@ -2059,8 +2058,8 @@ Licencia: Apache-2.0 OR MIT
 Origen: https://github.com/tauri-apps/wry
 Autores declarados: ["Tauri Programme within The Commons Conservancy"]
 Aviso 13: LICENSE-APACHE
-Aviso 230: LICENSE-MIT
-Aviso 231: LICENSE.spdx
+Aviso 229: LICENSE-MIT
+Aviso 230: LICENSE.spdx
 ========================================================================
 cargo: yoke-derive 0.8.4
 Licencia: Unicode-3.0
@@ -2090,15 +2089,15 @@ cargo: zeroize_derive 1.5.0
 Licencia: Apache-2.0 OR MIT
 Origen: https://github.com/RustCrypto/utils
 Autores declarados: ["The RustCrypto Project Developers"]
-Aviso 169: LICENSE-APACHE
-Aviso 232: LICENSE-MIT
+Aviso 168: LICENSE-APACHE
+Aviso 231: LICENSE-MIT
 ========================================================================
 cargo: zeroize 1.9.2
 Licencia: Apache-2.0 OR MIT
 Origen: https://github.com/RustCrypto/utils
 Autores declarados: ["The RustCrypto Project Developers"]
-Aviso 169: LICENSE-APACHE
-Aviso 233: LICENSE-MIT
+Aviso 168: LICENSE-APACHE
+Aviso 232: LICENSE-MIT
 ========================================================================
 cargo: zerotrie 0.2.5
 Licencia: Unicode-3.0
@@ -2122,13 +2121,13 @@ cargo: zip 9.7.0
 Licencia: MIT
 Origen: https://github.com/zip-rs/zip2
 Autores declarados: ["Mathijs van de Nes <git@mathijs.vd-nes.nl>","Marli Frost <marli@frost.red>","Ryan Levick <ryan.levick@gmail.com>","Chris Hennick <hennickc@amazon.com>"]
-Aviso 200: LICENSE
+Aviso 199: LICENSE
 ========================================================================
 cargo: zlib-rs 0.6.8
 Licencia: Zlib
 Origen: https://github.com/trifectatechfoundation/zlib-rs
 Autores declarados: []
-Aviso 234: LICENSE
+Aviso 233: LICENSE
 ========================================================================
 cargo: zmij 1.0.23
 Licencia: MIT
@@ -2140,386 +2139,386 @@ npm: @babel/runtime 7.29.7
 Licencia: MIT
 Origen: https://github.com/babel/babel.git
 Autores declarados: "The Babel Team (https://babel.dev/team)"
-Aviso 235: LICENSE
+Aviso 234: LICENSE
 ========================================================================
 npm: @base-ui/react 1.7.0
 Licencia: MIT
 Origen: git+https://github.com/mui/base-ui.git
 Autores declarados: "MUI Team"
-Aviso 236: LICENSE
+Aviso 235: LICENSE
 ========================================================================
 npm: @base-ui/utils 0.3.2
 Licencia: MIT
 Origen: git+https://github.com/mui/base-ui.git
 Autores declarados: "MUI Team"
-Aviso 236: LICENSE
+Aviso 235: LICENSE
 ========================================================================
 npm: @floating-ui/core 1.8.0
 Licencia: MIT
 Origen: https://github.com/floating-ui/floating-ui.git
 Autores declarados: "atomiks"
-Aviso 237: LICENSE
+Aviso 236: LICENSE
 ========================================================================
 npm: @floating-ui/dom 1.8.0
 Licencia: MIT
 Origen: https://github.com/floating-ui/floating-ui.git
 Autores declarados: "atomiks"
-Aviso 237: LICENSE
+Aviso 236: LICENSE
 ========================================================================
 npm: @floating-ui/react-dom 2.1.9
 Licencia: MIT
 Origen: https://github.com/floating-ui/floating-ui.git
 Autores declarados: "atomiks"
-Aviso 237: LICENSE
+Aviso 236: LICENSE
 ========================================================================
 npm: @floating-ui/utils 0.2.12
 Licencia: MIT
 Origen: https://github.com/floating-ui/floating-ui.git
 Autores declarados: "atomiks"
-Aviso 237: LICENSE
+Aviso 236: LICENSE
 ========================================================================
 npm: @reduxjs/toolkit 2.12.0
 Licencia: MIT
 Origen: git+https://github.com/reduxjs/redux-toolkit.git
 Autores declarados: "Mark Erikson <mark@isquaredsoftware.com>"
-Aviso 238: LICENSE
+Aviso 237: LICENSE
 ========================================================================
 npm: @tauri-apps/api 2.12.4
 Licencia: Apache-2.0 OR MIT
 Origen: git+https://github.com/tauri-apps/tauri.git
 Autores declarados: null
 Aviso 62: LICENSE-APACHE-2.0
-Aviso 185: LICENSE-MIT
-Aviso 239: LICENSE.spdx
+Aviso 184: LICENSE-MIT
+Aviso 238: LICENSE.spdx
 ========================================================================
 npm: @tauri-apps/plugin-dialog 2.8.3
 Licencia: MIT OR Apache-2.0
 Origen: https://github.com/tauri-apps/plugins-workspace
 Autores declarados: ["Tauri Programme within The Commons Conservancy"]
-Aviso 186: LICENSE.spdx
+Aviso 185: LICENSE.spdx
 ========================================================================
 npm: @tauri-apps/plugin-fs 2.7.1
 Licencia: MIT OR Apache-2.0
 Origen: https://github.com/tauri-apps/plugins-workspace
 Autores declarados: ["Tauri Programme within The Commons Conservancy"]
-Aviso 186: LICENSE.spdx
+Aviso 185: LICENSE.spdx
 ========================================================================
 npm: canvg 3.0.11
 Licencia: MIT
 Origen: https://github.com/canvg/canvg
 Autores declarados: [{"name":"Gabe Lerner","email":"gabelerner@gmail.com"},{"name":"Brett Zamir"},{"name":"Dan Green","url":"https://twitter.com/dangreen58"}]
-Aviso 240: LICENSE
+Aviso 239: LICENSE
 ========================================================================
 npm: class-variance-authority 0.7.1
 Licencia: Apache-2.0
 Origen: https://github.com/joe-bell/cva.git
 Autores declarados: "Joe Bell (https://joebell.co.uk)"
-Aviso 241: LICENSE
+Aviso 240: LICENSE
 ========================================================================
 npm: clsx 2.1.1
 Licencia: MIT
 Origen: lukeed/clsx
 Autores declarados: {"name":"Luke Edwards","email":"luke.edwards05@gmail.com","url":"https://lukeed.com"}
-Aviso 242: license
+Aviso 241: license
 ========================================================================
 npm: core-js 3.50.0
 Licencia: MIT
 Origen: git+https://github.com/zloirock/core-js.git
 Autores declarados: {"name":"Denis Pushkarev","email":"zloirock@zloirock.ru","url":"http://zloirock.ru"}
-Aviso 243: LICENSE
+Aviso 242: LICENSE
 ========================================================================
 npm: d3-array 3.2.4
 Licencia: ISC
 Origen: https://github.com/d3/d3-array.git
 Autores declarados: {"name":"Mike Bostock","url":"http://bost.ocks.org/mike"}
-Aviso 244: LICENSE
+Aviso 243: LICENSE
 ========================================================================
 npm: d3-color 3.1.0
 Licencia: ISC
 Origen: https://github.com/d3/d3-color.git
 Autores declarados: {"name":"Mike Bostock","url":"http://bost.ocks.org/mike"}
-Aviso 245: LICENSE
+Aviso 244: LICENSE
 ========================================================================
 npm: d3-format 3.1.2
 Licencia: ISC
 Origen: https://github.com/d3/d3-format.git
 Autores declarados: {"name":"Mike Bostock","url":"http://bost.ocks.org/mike"}
-Aviso 246: LICENSE
+Aviso 245: LICENSE
 ========================================================================
 npm: d3-interpolate 3.0.1
 Licencia: ISC
 Origen: https://github.com/d3/d3-interpolate.git
 Autores declarados: {"name":"Mike Bostock","url":"http://bost.ocks.org/mike"}
-Aviso 247: LICENSE
+Aviso 246: LICENSE
 ========================================================================
 npm: d3-path 3.1.0
 Licencia: ISC
 Origen: https://github.com/d3/d3-path.git
 Autores declarados: {"name":"Mike Bostock","url":"http://bost.ocks.org/mike"}
-Aviso 248: LICENSE
+Aviso 247: LICENSE
 ========================================================================
 npm: d3-scale 4.0.2
 Licencia: ISC
 Origen: https://github.com/d3/d3-scale.git
 Autores declarados: {"name":"Mike Bostock","url":"https://bost.ocks.org/mike"}
-Aviso 247: LICENSE
+Aviso 246: LICENSE
 ========================================================================
 npm: d3-shape 3.2.0
 Licencia: ISC
 Origen: https://github.com/d3/d3-shape.git
 Autores declarados: {"name":"Mike Bostock","url":"http://bost.ocks.org/mike"}
-Aviso 245: LICENSE
+Aviso 244: LICENSE
 ========================================================================
 npm: d3-time-format 4.1.0
 Licencia: ISC
 Origen: https://github.com/d3/d3-time-format.git
 Autores declarados: {"name":"Mike Bostock","url":"http://bost.ocks.org/mike"}
-Aviso 247: LICENSE
+Aviso 246: LICENSE
 ========================================================================
 npm: d3-time 3.1.0
 Licencia: ISC
 Origen: https://github.com/d3/d3-time.git
 Autores declarados: {"name":"Mike Bostock","url":"http://bost.ocks.org/mike"}
-Aviso 245: LICENSE
+Aviso 244: LICENSE
 ========================================================================
 npm: decimal.js-light 2.5.1
 Licencia: MIT
 Origen: https://github.com/MikeMcl/decimal.js-light.git
 Autores declarados: {"name":"Michael Mclaughlin","email":"M8ch88l@gmail.com"}
-Aviso 249: LICENCE.md
+Aviso 248: LICENCE.md
 ========================================================================
 npm: dompurify 3.4.17
 Licencia: (MPL-2.0 OR Apache-2.0)
 Origen: git://github.com/cure53/DOMPurify.git
 Autores declarados: "Dr.-Ing. Mario Heiderich, Cure53 <mario@cure53.de> (https://cure53.de/)"
-Aviso 169: LICENSE
+Aviso 168: LICENSE
 Aviso 43: LICENSE-MPL
 ========================================================================
 npm: es-toolkit 1.52.0
 Licencia: MIT
 Origen: https://github.com/toss/es-toolkit.git
 Autores declarados: null
-Aviso 250: LICENSE
-Aviso 251: NOTICE
+Aviso 249: LICENSE
+Aviso 250: NOTICE
 ========================================================================
 npm: eventemitter3 5.0.4
 Licencia: MIT
 Origen: git://github.com/primus/eventemitter3.git
 Autores declarados: "Arnout Kazemier"
-Aviso 252: LICENSE
+Aviso 251: LICENSE
 ========================================================================
 npm: fast-png 6.4.0
 Licencia: MIT
 Origen: git+https://github.com/image-js/fast-png.git
 Autores declarados: "Michaël Zasso"
-Aviso 253: LICENSE
+Aviso 252: LICENSE
 ========================================================================
 npm: fflate 0.8.3
 Licencia: MIT
 Origen: https://github.com/101arrowz/fflate
 Autores declarados: "Arjun Barrett <arjunbarrett@gmail.com>"
-Aviso 254: LICENSE
+Aviso 253: LICENSE
 ========================================================================
 npm: html2canvas 1.4.1
 Licencia: MIT
 Origen: git@github.com:niklasvh/html2canvas.git
 Autores declarados: {"name":"Niklas von Hertzen","email":"niklasvh@gmail.com","url":"https://hertzen.com"}
-Aviso 255: LICENSE
+Aviso 254: LICENSE
 ========================================================================
 npm: immer 10.2.0
 Licencia: MIT
 Origen: https://github.com/immerjs/immer.git
 Autores declarados: "Michel Weststrate <info@michel.codes>"
-Aviso 256: LICENSE
+Aviso 255: LICENSE
 ========================================================================
 npm: immer 11.1.18
 Licencia: MIT
 Origen: https://github.com/immerjs/immer.git
 Autores declarados: "Michel Weststrate <info@michel.codes>"
-Aviso 256: LICENSE
+Aviso 255: LICENSE
 ========================================================================
 npm: internmap 2.0.3
 Licencia: ISC
 Origen: https://github.com/mbostock/internmap.git
 Autores declarados: {"name":"Mike Bostock","url":"https://bost.ocks.org/mike"}
-Aviso 257: LICENSE
+Aviso 256: LICENSE
 ========================================================================
 npm: iobuffer 5.4.0
 Licencia: MIT
 Origen: git+https://github.com/image-js/iobuffer.git
 Autores declarados: "Michaël Zasso"
-Aviso 258: LICENSE
+Aviso 257: LICENSE
 ========================================================================
 npm: jspdf-autotable 5.0.8
 Licencia: MIT
 Origen: https://github.com/simonbengtsson/jsPDF-AutoTable.git
 Autores declarados: "Simon Bengtsson <dev@simonbengtsson.com>"
-Aviso 259: LICENSE.txt
+Aviso 258: LICENSE.txt
 ========================================================================
 npm: jspdf 4.2.1
 Licencia: MIT
 Origen: https://github.com/parallax/jsPDF.git
 Autores declarados: null
-Aviso 260: LICENSE
+Aviso 259: LICENSE
 ========================================================================
 npm: lucide-react 1.31.0
 Licencia: ISC
 Origen: https://github.com/lucide-icons/lucide.git
 Autores declarados: "Eric Fennis"
-Aviso 261: dist/esm/icons/copyright.mjs
-Aviso 262: LICENSE
+Aviso 260: dist/esm/icons/copyright.mjs
+Aviso 261: LICENSE
 ========================================================================
 npm: pako 2.2.0
 Licencia: (MIT AND Zlib)
 Origen: nodeca/pako
 Autores declarados: null
-Aviso 263: LICENSE
+Aviso 262: LICENSE
 ========================================================================
 npm: performance-now 2.1.0
 Licencia: MIT
 Origen: git://github.com/braveg1rl/performance-now.git
 Autores declarados: "Braveg1rl <braveg1rl@outlook.com>"
-Aviso 264: license.txt
+Aviso 263: license.txt
 ========================================================================
 npm: raf 3.4.1
 Licencia: MIT
 Origen: git://github.com/chrisdickinson/raf.git
 Autores declarados: "Chris Dickinson <chris@neversaw.us>"
-Aviso 265: LICENSE
+Aviso 264: LICENSE
 ========================================================================
 npm: react-dom 19.2.6
 Licencia: MIT
 Origen: https://github.com/facebook/react.git
 Autores declarados: null
-Aviso 266: LICENSE
+Aviso 265: LICENSE
 ========================================================================
 npm: react-is 19.2.8
 Licencia: MIT
 Origen: https://github.com/react/react.git
 Autores declarados: null
-Aviso 266: LICENSE
+Aviso 265: LICENSE
 ========================================================================
 npm: react-redux 9.3.0
 Licencia: MIT
 Origen: github:reduxjs/react-redux
 Autores declarados: "Dan Abramov <dan.abramov@me.com> (https://github.com/gaearon)"
-Aviso 267: LICENSE.md
+Aviso 266: LICENSE.md
 ========================================================================
 npm: react 19.2.6
 Licencia: MIT
 Origen: https://github.com/facebook/react.git
 Autores declarados: null
-Aviso 266: LICENSE
+Aviso 265: LICENSE
 ========================================================================
 npm: recharts 3.8.0
 Licencia: MIT
 Origen: git+https://github.com/recharts/recharts.git
 Autores declarados: {"name":"recharts group"}
-Aviso 268: LICENSE
+Aviso 267: LICENSE
 ========================================================================
 npm: redux-thunk 3.1.0
 Licencia: MIT
 Origen: github:reduxjs/redux-thunk
 Autores declarados: "Dan Abramov <dan.abramov@me.com>"
-Aviso 269: LICENSE.md
+Aviso 268: LICENSE.md
 ========================================================================
 npm: redux 5.0.1
 Licencia: MIT
 Origen: github:reduxjs/redux
 Autores declarados: ["Dan Abramov <dan.abramov@me.com> (https://github.com/gaearon)","Andrew Clark <acdlite@me.com> (https://github.com/acdlite)"]
-Aviso 267: LICENSE.md
+Aviso 266: LICENSE.md
 ========================================================================
 npm: reselect 5.1.1
 Licencia: MIT
 Origen: https://github.com/reduxjs/reselect.git
 Autores declarados: ["Lee Bannard","Robert Binna","Martijn Faassen","Philip Spitzlinger"]
-Aviso 270: LICENSE
+Aviso 269: LICENSE
 ========================================================================
 npm: rgbcolor 1.0.1
 Licencia: MIT OR SEE LICENSE IN FEEL-FREE.md
 Origen: https://github.com/yetzt/node-rgbcolor.git
 Autores declarados: "Sebastian Vollnhals <sebastian@vollnhals.info>"
-Aviso 271: LICENSE.md
+Aviso 270: LICENSE.md
 ========================================================================
 npm: scheduler 0.27.0
 Licencia: MIT
 Origen: https://github.com/facebook/react.git
 Autores declarados: null
-Aviso 266: LICENSE
+Aviso 265: LICENSE
 ========================================================================
 npm: shadcn 4.18.0
 Licencia: MIT
 Origen: https://github.com/shadcn-ui/ui.git
 Distribución: Vendored stylesheet only; no CLI or JavaScript dependencies.
 Autores declarados: {"name":"shadcn","url":"https://twitter.com/shadcn"}
-Aviso 272: LICENSE.md
+Aviso 271: LICENSE.md
 ========================================================================
 npm: stackblur-canvas 2.7.0
 Licencia: MIT
 Origen: https://github.com/flozz/StackBlur.git
 Autores declarados: "Mario Klingemann"
-Aviso 273: LICENSE-MIT.txt
+Aviso 272: LICENSE-MIT.txt
 ========================================================================
 npm: svg-pathdata 6.0.3
 Licencia: MIT
 Origen: https://github.com/nfroidure/svg-pathdata.git
 Autores declarados: "Nicolas Froidure"
-Aviso 274: LICENSE
+Aviso 273: LICENSE
 ========================================================================
 npm: tailwind-merge 3.6.0
 Licencia: MIT
 Origen: https://github.com/dcastil/tailwind-merge.git
 Autores declarados: "Dany Castillo"
-Aviso 275: LICENSE.md
+Aviso 274: LICENSE.md
 ========================================================================
 npm: tailwindcss 4.2.1
 Licencia: MIT
 Origen: https://github.com/tailwindlabs/tailwindcss.git
 Autores declarados: null
-Aviso 276: LICENSE
+Aviso 275: LICENSE
 ========================================================================
 npm: tiny-invariant 1.3.3
 Licencia: MIT
 Origen: https://github.com/alexreardon/tiny-invariant.git
 Autores declarados: "Alex Reardon <alexreardon@gmail.com>"
-Aviso 277: LICENSE
+Aviso 276: LICENSE
 ========================================================================
 npm: tw-animate-css 1.4.0
 Licencia: MIT
 Origen: Wombosvideo/tw-animate-css
 Autores declarados: {"name":"Luca Bosin","url":"https://github.com/Wombosvideo"}
-Aviso 278: LICENSE
+Aviso 277: LICENSE
 ========================================================================
 npm: use-sync-external-store 1.6.0
 Licencia: MIT
 Origen: https://github.com/facebook/react.git
 Autores declarados: null
-Aviso 266: LICENSE
+Aviso 265: LICENSE
 ========================================================================
 npm: victory-vendor 37.3.6
 Licencia: MIT AND ISC
 Origen: https://github.com/FormidableLabs/victory
 Autores declarados: "Formidable"
-Aviso 245: lib-vendor/d3-array/LICENSE
-Aviso 245: lib-vendor/d3-color/LICENSE
-Aviso 279: lib-vendor/d3-ease/LICENSE
-Aviso 247: lib-vendor/d3-format/LICENSE
-Aviso 247: lib-vendor/d3-interpolate/LICENSE
-Aviso 280: lib-vendor/d3-path/LICENSE
-Aviso 247: lib-vendor/d3-scale/LICENSE
-Aviso 247: lib-vendor/d3-shape/LICENSE
-Aviso 247: lib-vendor/d3-time/LICENSE
-Aviso 247: lib-vendor/d3-time-format/LICENSE
-Aviso 247: lib-vendor/d3-timer/LICENSE
-Aviso 281: lib-vendor/d3-voronoi/LICENSE
-Aviso 257: lib-vendor/internmap/LICENSE
+Aviso 244: lib-vendor/d3-array/LICENSE
+Aviso 244: lib-vendor/d3-color/LICENSE
+Aviso 278: lib-vendor/d3-ease/LICENSE
+Aviso 246: lib-vendor/d3-format/LICENSE
+Aviso 246: lib-vendor/d3-interpolate/LICENSE
+Aviso 279: lib-vendor/d3-path/LICENSE
+Aviso 246: lib-vendor/d3-scale/LICENSE
+Aviso 246: lib-vendor/d3-shape/LICENSE
+Aviso 246: lib-vendor/d3-time/LICENSE
+Aviso 246: lib-vendor/d3-time-format/LICENSE
+Aviso 246: lib-vendor/d3-timer/LICENSE
+Aviso 280: lib-vendor/d3-voronoi/LICENSE
+Aviso 256: lib-vendor/internmap/LICENSE
 ========================================================================
 npm: xlsx 0.20.3
 Licencia: Apache-2.0
 Origen: https://git.sheetjs.com/SheetJS/sheetjs
 Autores declarados: "sheetjs"
-Aviso 282: dist/LICENSE
-Aviso 282: LICENSE
+Aviso 281: dist/LICENSE
+Aviso 281: LICENSE
 
 TEXTOS ÍNTEGROS DE LOS AVISOS REFERENCIADOS
 
@@ -6191,7 +6190,7 @@ Mozilla Public License Version 2.0
     means any form of the work other than Source Code Form.
 
 1.7. "Larger Work"
-    means a work that combines Covered Software with other material, in 
+    means a work that combines Covered Software with other material, in
     a separate file or files, that is not Covered Software.
 
 1.8. "License"
@@ -7316,8 +7315,8 @@ SOFTWARE.
 
 ---
 
-This project contains portions of code and architectural concepts originally 
-derived from the "nipper" project (https://github.com/importcjj/nipper), 
+This project contains portions of code and architectural concepts originally
+derived from the "nipper" project (https://github.com/importcjj/nipper),
 developed by Chen Jiaju, licensed under the MIT License and the Apache License 2.0 (dual licensed).
 
 ========================================================================
@@ -11140,35 +11139,6 @@ THE SOFTWARE.
 ========================================================================
 AVISO 109
 
-Copyright (c) 2008-2020 Zetetic LLC
-All rights reserved.
-
-Redistribution and use in source and binary forms, with or without
-modification, are permitted provided that the following conditions are met:
-    * Redistributions of source code must retain the above copyright
-      notice, this list of conditions and the following disclaimer.
-    * Redistributions in binary form must reproduce the above copyright
-      notice, this list of conditions and the following disclaimer in the
-      documentation and/or other materials provided with the distribution.
-    * Neither the name of the ZETETIC LLC nor the
-      names of its contributors may be used to endorse or promote products
-      derived from this software without specific prior written permission.
-
-THIS SOFTWARE IS PROVIDED BY ZETETIC LLC ''AS IS'' AND ANY
-EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
-WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
-DISCLAIMED. IN NO EVENT SHALL ZETETIC LLC BE LIABLE FOR ANY
-DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
-(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
-LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
-ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
-(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
-SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-
-
-========================================================================
-AVISO 110
-
 Copyright (c) 2016 The Rust Project Developers
 
 Permission is hereby granted, free of charge, to any
@@ -11197,7 +11167,7 @@ DEALINGS IN THE SOFTWARE.
 
 
 ========================================================================
-AVISO 111
+AVISO 110
 
 Copyright (c) 2014 Sean McArthur
 
@@ -11222,7 +11192,7 @@ THE SOFTWARE.
 
 
 ========================================================================
-AVISO 112
+AVISO 111
 
 Copyright (c) 2019-2025 Frank Denis
 
@@ -11286,7 +11256,7 @@ DEALINGS IN THE SOFTWARE.
 
 
 ========================================================================
-AVISO 113
+AVISO 112
 
 MIT License
 
@@ -11295,6 +11265,35 @@ Copyright 2010-2014 Rich Geldreich and Tenacious Software LLC
 Copyright (c) 2017 Frommi
 Copyright (c) 2017-2024 oyvindln
 
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
+========================================================================
+AVISO 113
+
+MIT License
+
+Copyright 2013-2014 RAD Game Tools and Valve Software
+Copyright 2010-2014 Rich Geldreich and Tenacious Software LLC
+Copyright (c) 2017 Frommi
+Copyright (c) 2017-2024 oyvindln
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -11318,35 +11317,6 @@ SOFTWARE.
 ========================================================================
 AVISO 114
 
-MIT License
-
-Copyright 2013-2014 RAD Game Tools and Valve Software
-Copyright 2010-2014 Rich Geldreich and Tenacious Software LLC
-Copyright (c) 2017 Frommi
-Copyright (c) 2017-2024 oyvindln
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-
-
-========================================================================
-AVISO 115
-
 Copyright 2013-2014 RAD Game Tools and Valve Software
 Copyright 2010-2014 Rich Geldreich and Tenacious Software LLC
 Copyright (c) 2020 Frommi
@@ -11364,7 +11334,7 @@ Permission is granted to anyone to use this software for any purpose, including 
 
 
 ========================================================================
-AVISO 116
+AVISO 115
 
 Copyright (c) 2014 Carl Lerche and other MIO contributors
 
@@ -11388,7 +11358,7 @@ THE SOFTWARE.
 
 
 ========================================================================
-AVISO 117
+AVISO 116
 
 MIT License
 
@@ -11414,7 +11384,7 @@ SOFTWARE.
 
 
 ========================================================================
-AVISO 118
+AVISO 117
 
 SPDXVersion: SPDX-2.1
 DataLicense: CC0-1.0
@@ -11437,7 +11407,7 @@ PackageDownloadLocation: git+ssh://github.com/tauri-apps/muda.git
 Creator: Person: Daniel Thompson-Yvetot
 
 ========================================================================
-AVISO 119
+AVISO 118
 
 Copyright (c) 2015 Jonathan Reem
 
@@ -11467,7 +11437,7 @@ DEALINGS IN THE SOFTWARE.
 
 
 ========================================================================
-AVISO 120
+AVISO 119
 
 Copyright (c) Jacob Pratt
 
@@ -11491,7 +11461,7 @@ SOFTWARE.
 
 
 ========================================================================
-AVISO 121
+AVISO 120
 
 Copyright (c) 2018-2024 The RustCrypto Project Developers
 
@@ -11521,7 +11491,7 @@ DEALINGS IN THE SOFTWARE.
 
 
 ========================================================================
-AVISO 122
+AVISO 121
 
 Mozilla Public License Version 2.0
 ==================================
@@ -11560,7 +11530,7 @@ Mozilla Public License Version 2.0
     means any form of the work other than Source Code Form.
 
 1.7. "Larger Work"
-    means a work that combines Covered Software with other material, in 
+    means a work that combines Covered Software with other material, in
     a separate file or files, that is not Covered Software.
 
 1.8. "License"
@@ -11899,7 +11869,7 @@ Exhibit B - "Incompatible With Secondary Licenses" Notice
 
 
 ========================================================================
-AVISO 123
+AVISO 122
 
 Copyright (c) 2020-2023 RustCrypto Developers
 
@@ -11929,7 +11899,7 @@ DEALINGS IN THE SOFTWARE.
 
 
 ========================================================================
-AVISO 124
+AVISO 123
 
 The MIT License (MIT)
 
@@ -11954,7 +11924,7 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 
 ========================================================================
-AVISO 125
+AVISO 124
 
 Copyright (c) 2015 Edward Barnard
 
@@ -11977,7 +11947,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 ========================================================================
-AVISO 126
+AVISO 125
 
 Copyright (c) 2015 nwin
 
@@ -12007,7 +11977,7 @@ DEALINGS IN THE SOFTWARE.
 
 
 ========================================================================
-AVISO 127
+AVISO 126
 
 Copyright (c) 2015-2019 RustCrypto Developers
 
@@ -12037,7 +12007,7 @@ DEALINGS IN THE SOFTWARE.
 
 
 ========================================================================
-AVISO 128
+AVISO 127
 
 
                                  Apache License
@@ -12244,7 +12214,7 @@ AVISO 128
 
 
 ========================================================================
-AVISO 129
+AVISO 128
 
 Copyright (c) 2023 Jacob Pratt et al.
 
@@ -12268,7 +12238,7 @@ SOFTWARE.
 
 
 ========================================================================
-AVISO 130
+AVISO 129
 
 MIT License
 
@@ -12294,7 +12264,7 @@ SOFTWARE.
 
 
 ========================================================================
-AVISO 131
+AVISO 130
 
 The MIT License (MIT)
 
@@ -12322,7 +12292,7 @@ THE SOFTWARE.
 
 
 ========================================================================
-AVISO 132
+AVISO 131
 
 Copyrights in the Rand project are retained by their contributors. No
 copyright assignment is required to contribute to the Rand project.
@@ -12339,7 +12309,7 @@ published under these same licenses.
 
 
 ========================================================================
-AVISO 133
+AVISO 132
 
                               Apache License
                         Version 2.0, January 2004
@@ -12531,7 +12501,7 @@ APPENDIX: How to apply the Apache License to your work.
 
 
 ========================================================================
-AVISO 134
+AVISO 133
 
 Copyright 2018 Developers of the Rand project
 Copyright (c) 2014 The Rust Project Developers
@@ -12562,7 +12532,7 @@ DEALINGS IN THE SOFTWARE.
 
 
 ========================================================================
-AVISO 135
+AVISO 134
 
 MIT License
 
@@ -12588,7 +12558,7 @@ SOFTWARE.
 
 
 ========================================================================
-AVISO 136
+AVISO 135
 
 Copyright (c) 2020 Osspial
 
@@ -12604,7 +12574,7 @@ Permission is granted to anyone to use this software for any purpose, including 
 
 
 ========================================================================
-AVISO 137
+AVISO 136
 
 UNICODE, INC. LICENSE AGREEMENT - DATA FILES AND SOFTWARE
 
@@ -12666,7 +12636,7 @@ written authorization of the copyright holder.
 
 
 ========================================================================
-AVISO 138
+AVISO 137
 
                               Apache License
                         Version 2.0, January 2004
@@ -12872,7 +12842,7 @@ limitations under the License.
 
 
 ========================================================================
-AVISO 139
+AVISO 138
 
 Copyright (c) 2016-2026 Sean McArthur
 
@@ -12897,7 +12867,7 @@ THE SOFTWARE.
 
 
 ========================================================================
-AVISO 140
+AVISO 139
 
 MIT License
 
@@ -12923,7 +12893,7 @@ SOFTWARE.
 
 
 ========================================================================
-AVISO 141
+AVISO 140
 
 MIT License
 
@@ -12949,7 +12919,7 @@ SOFTWARE.
 
 
 ========================================================================
-AVISO 142
+AVISO 141
 
 *ring* uses an "ISC" license, like BoringSSL used to use, for new code
 files. See LICENSE-other-bits for the text of that license.
@@ -12963,7 +12933,7 @@ for the license to code that was sourced from the once_cell project.
 
 
 ========================================================================
-AVISO 143
+AVISO 142
 
 
                                  Apache License
@@ -13240,7 +13210,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 
 ========================================================================
-AVISO 144
+AVISO 143
 
 Copyright 2015-2025 Brian Smith.
 
@@ -13258,7 +13228,7 @@ CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
 
 ========================================================================
-AVISO 145
+AVISO 144
 
 Permission is hereby granted, free of charge, to any
 person obtaining a copy of this software and associated
@@ -13286,7 +13256,7 @@ DEALINGS IN THE SOFTWARE.
 
 
 ========================================================================
-AVISO 146
+AVISO 145
 
 The Apache License, Version 2.0 (Apache-2.0)
 
@@ -13306,7 +13276,7 @@ limitations under the License.
 
 
 ========================================================================
-AVISO 147
+AVISO 146
 
                               Apache License
                         Version 2.0, January 2004
@@ -13486,7 +13456,7 @@ TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
 END OF TERMS AND CONDITIONS
 
 ========================================================================
-AVISO 148
+AVISO 147
 
 Permission is hereby granted, free of charge, to any
 person obtaining a copy of this software and associated
@@ -13513,7 +13483,7 @@ IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 DEALINGS IN THE SOFTWARE.
 
 ========================================================================
-AVISO 149
+AVISO 148
 
                               Apache License
                         Version 2.0, January 2004
@@ -13719,7 +13689,7 @@ limitations under the License.
 
 
 ========================================================================
-AVISO 150
+AVISO 149
 
 Copyright (c) 2023 Dirkjan Ochtman <dirkjan@ochtman.nl>
 
@@ -13749,7 +13719,7 @@ DEALINGS IN THE SOFTWARE.
 
 
 ========================================================================
-AVISO 151
+AVISO 150
 
                                  Apache License
                            Version 2.0, January 2004
@@ -13955,7 +13925,7 @@ AVISO 151
 
 
 ========================================================================
-AVISO 152
+AVISO 151
 
 MIT License
 
@@ -13981,7 +13951,7 @@ SOFTWARE.
 
 
 ========================================================================
-AVISO 153
+AVISO 152
 
 Except as otherwise noted, this project is licensed under the following
 (ISC-style) terms:
@@ -14005,7 +13975,7 @@ third-party/chromium/LICENSE.
 
 
 ========================================================================
-AVISO 154
+AVISO 153
 
 Boost Software License - Version 1.0 - August 17th, 2003
 
@@ -14033,7 +14003,7 @@ DEALINGS IN THE SOFTWARE.
 
 
 ========================================================================
-AVISO 155
+AVISO 154
 
 The MIT License (MIT)
 
@@ -14059,7 +14029,7 @@ THE SOFTWARE.
 
 
 ========================================================================
-AVISO 156
+AVISO 155
 
 MIT License
 
@@ -14085,7 +14055,7 @@ SOFTWARE.
 
 
 ========================================================================
-AVISO 157
+AVISO 156
 
 Copyright (c) 2016-2019 Ulrik Sverdrup "bluss" and scopeguard developers
 
@@ -14115,7 +14085,7 @@ DEALINGS IN THE SOFTWARE.
 
 
 ========================================================================
-AVISO 158
+AVISO 157
 
 Mozilla Public License Version 2.0
 ==================================
@@ -14154,7 +14124,7 @@ Mozilla Public License Version 2.0
     means any form of the work other than Source Code Form.
 
 1.7. "Larger Work"
-    means a work that combines Covered Software with other material, in 
+    means a work that combines Covered Software with other material, in
     a separate file or files, that is not Covered Software.
 
 1.8. "License"
@@ -14493,7 +14463,7 @@ Exhibit B - "Incompatible With Secondary Licenses" Notice
 
 
 ========================================================================
-AVISO 159
+AVISO 158
 
                                  Apache License
                            Version 2.0, January 2004
@@ -14700,7 +14670,7 @@ AVISO 159
 
 
 ========================================================================
-AVISO 160
+AVISO 159
 
 Copyright (c) Individual contributors
 
@@ -14724,7 +14694,7 @@ SOFTWARE.
 
 
 ========================================================================
-AVISO 161
+AVISO 160
 
 Copyright (c) 2016 Anthony Ramine
 
@@ -14754,7 +14724,7 @@ DEALINGS IN THE SOFTWARE.
 
 
 ========================================================================
-AVISO 162
+AVISO 161
 
 Copyright (c) 2015
 
@@ -14784,7 +14754,7 @@ DEALINGS IN THE SOFTWARE.
 
 
 ========================================================================
-AVISO 163
+AVISO 162
 
 MIT License
 
@@ -14810,7 +14780,7 @@ SOFTWARE.
 
 
 ========================================================================
-AVISO 164
+AVISO 163
 
 Copyright (c) 2006-2009 Graydon Hoare
 Copyright (c) 2009-2013 Mozilla Foundation
@@ -14842,7 +14812,7 @@ DEALINGS IN THE SOFTWARE.
 
 
 ========================================================================
-AVISO 165
+AVISO 164
 
 Copyright 2015 Nicholas Allegra (comex).
 
@@ -14860,7 +14830,7 @@ limitations under the License.
 
 
 ========================================================================
-AVISO 166
+AVISO 165
 
 The MIT License (MIT)
 
@@ -14886,7 +14856,7 @@ THE SOFTWARE.
 
 
 ========================================================================
-AVISO 167
+AVISO 166
 
 MIT License
 
@@ -14912,7 +14882,7 @@ SOFTWARE.
 
 
 ========================================================================
-AVISO 168
+AVISO 167
 
 Copyright 2012-2016 The Rust Project Developers.
 Copyright 2016-2026 Frank Denis.
@@ -14924,7 +14894,7 @@ option.
 
 
 ========================================================================
-AVISO 169
+AVISO 168
 
 
                                  Apache License
@@ -15131,7 +15101,7 @@ AVISO 169
 
 
 ========================================================================
-AVISO 170
+AVISO 169
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -15153,7 +15123,7 @@ SOFTWARE.
 
 
 ========================================================================
-AVISO 171
+AVISO 170
 
 Copyright (c) 2019 Carl Lerche
 
@@ -15183,7 +15153,7 @@ DEALINGS IN THE SOFTWARE.
 
 
 ========================================================================
-AVISO 172
+AVISO 171
 
 Copyright (c) 2018 The Servo Project Developers
 
@@ -15213,7 +15183,7 @@ DEALINGS IN THE SOFTWARE.
 
 
 ========================================================================
-AVISO 173
+AVISO 172
 
 Apache License
                            Version 2.0, January 2004
@@ -15419,7 +15389,7 @@ Apache License
 
 
 ========================================================================
-AVISO 174
+AVISO 173
 
 Copyright 2022 Kirill Chibisov
 
@@ -15444,7 +15414,7 @@ SOFTWARE.
 
 
 ========================================================================
-AVISO 175
+AVISO 174
 
 Copyright (c) 2017 Robert Grosse
 
@@ -15473,13 +15443,13 @@ IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 DEALINGS IN THE SOFTWARE.
 
 ========================================================================
-AVISO 176
+AVISO 175
 
 MIT OR Apache-2.0 OR Zlib
 
 
 ========================================================================
-AVISO 177
+AVISO 176
 
 Apache License
 Version 2.0, January 2004
@@ -15545,7 +15515,7 @@ limitations under the License.
 
 
 ========================================================================
-AVISO 178
+AVISO 177
 
 MIT License
 
@@ -15559,7 +15529,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 
 ========================================================================
-AVISO 179
+AVISO 178
 
 Copyright (c) 2021 Chris Denton.
 
@@ -15575,7 +15545,7 @@ Permission is granted to anyone to use this software for any purpose, including 
 
 
 ========================================================================
-AVISO 180
+AVISO 179
 
 Copyright (c) 2012-2013 Mozilla Foundation
 
@@ -15605,7 +15575,7 @@ DEALINGS IN THE SOFTWARE.
 
 
 ========================================================================
-AVISO 181
+AVISO 180
 
 The MIT License (MIT)
 
@@ -15633,7 +15603,7 @@ SOFTWARE.
 
 
 ========================================================================
-AVISO 182
+AVISO 181
 
 Copyright (c) 2016-2017 Isis Agora Lovecruft, Henry de Valence. All rights reserved.
 Copyright (c) 2016-2024 Isis Agora Lovecruft. All rights reserved.
@@ -15663,11 +15633,11 @@ TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR
 PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF
 LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
 NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
-SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
+SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 
 ========================================================================
-AVISO 183
+AVISO 182
 
 Copyright 2016 Nika Layzell
 
@@ -15679,7 +15649,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 
 ========================================================================
-AVISO 184
+AVISO 183
 
 SPDXVersion: SPDX-2.1
 DataLicense: CC0-1.0
@@ -15702,7 +15672,7 @@ Creator: Person: Daniel Thompson-Yvetot
 
 
 ========================================================================
-AVISO 185
+AVISO 184
 
 MIT License
 
@@ -15728,7 +15698,7 @@ SOFTWARE.
 
 
 ========================================================================
-AVISO 186
+AVISO 185
 
 SPDXVersion: SPDX-2.1
 DataLicense: CC0-1.0
@@ -15752,7 +15722,7 @@ PackageDownloadLocation: git+ssh://github.com/tauri-apps/tauri.git
 Creator: Person: Daniel Thompson-Yvetot
 
 ========================================================================
-AVISO 187
+AVISO 186
 
 MIT License
 
@@ -15778,7 +15748,7 @@ SOFTWARE.
 
 
 ========================================================================
-AVISO 188
+AVISO 187
 
 The MIT License (MIT)
 
@@ -15811,7 +15781,7 @@ DEALINGS IN THE SOFTWARE.
 
 
 ========================================================================
-AVISO 189
+AVISO 188
 
 Copyright (c) 2015 Steven Allen
 
@@ -15841,7 +15811,7 @@ DEALINGS IN THE SOFTWARE.
 
 
 ========================================================================
-AVISO 190
+AVISO 189
 
 Copyright (c) 2015 Keegan McAllister
 
@@ -15871,7 +15841,7 @@ DEALINGS IN THE SOFTWARE.
 
 
 ========================================================================
-AVISO 191
+AVISO 190
 
 Copyright (c) Jacob Pratt et al.
 
@@ -15895,7 +15865,7 @@ SOFTWARE.
 
 
 ========================================================================
-AVISO 192
+AVISO 191
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
@@ -15905,7 +15875,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 
 ========================================================================
-AVISO 193
+AVISO 192
 
 Copyright (c) 2019 Daniel "Lokathor" Gee.
 
@@ -15921,7 +15891,7 @@ Permission is granted to anyone to use this software for any purpose, including 
 
 
 ========================================================================
-AVISO 194
+AVISO 193
 
                               Apache License
                         Version 2.0, January 2004
@@ -16127,7 +16097,7 @@ limitations under the License.
 
 
 ========================================================================
-AVISO 195
+AVISO 194
 
 Copyright (c) 2017 quininer kel
 
@@ -16157,7 +16127,7 @@ DEALINGS IN THE SOFTWARE.
 
 
 ========================================================================
-AVISO 196
+AVISO 195
 
 MIT License
 
@@ -16183,7 +16153,7 @@ SOFTWARE.
 
 
 ========================================================================
-AVISO 197
+AVISO 196
 
 Copyright (c) 2019-2021 Tower Contributors
 
@@ -16213,7 +16183,7 @@ DEALINGS IN THE SOFTWARE.
 
 
 ========================================================================
-AVISO 198
+AVISO 197
 
 Copyright (c) 2019 Tower Contributors
 
@@ -16243,7 +16213,7 @@ DEALINGS IN THE SOFTWARE.
 
 
 ========================================================================
-AVISO 199
+AVISO 198
 
 Copyright (c) 2019 Tokio Contributors
 
@@ -16273,7 +16243,7 @@ DEALINGS IN THE SOFTWARE.
 
 
 ========================================================================
-AVISO 200
+AVISO 199
 
 The MIT License (MIT)
 
@@ -16299,7 +16269,7 @@ SOFTWARE.
 
 
 ========================================================================
-AVISO 201
+AVISO 200
 
 SPDXVersion: SPDX-2.1
 DataLicense: CC0-1.0
@@ -16322,7 +16292,7 @@ PackageDownloadLocation: git+ssh://github.com/tauri-apps/tray-icon.git
 Creator: Person: Daniel Thompson-Yvetot
 
 ========================================================================
-AVISO 202
+AVISO 201
 
 Copyright (c) 2018-2023 Sean McArthur
 Copyright (c) 2016 Alex Crichton
@@ -16348,12 +16318,12 @@ THE SOFTWARE.
 
 
 ========================================================================
-AVISO 203
+AVISO 202
 
 MIT OR Apache-2.0
 
 ========================================================================
-AVISO 204
+AVISO 203
 
                               Apache License
                         Version 2.0, January 2004
@@ -16558,7 +16528,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 
 ========================================================================
-AVISO 205
+AVISO 204
 
 The MIT License (MIT)
 
@@ -16584,7 +16554,7 @@ SOFTWARE.
 
 
 ========================================================================
-AVISO 206
+AVISO 205
 
 UNICODE LICENSE V3
 
@@ -16628,7 +16598,7 @@ authorization of the copyright holder.
 
 
 ========================================================================
-AVISO 207
+AVISO 206
 
 Licensed under the Apache License, Version 2.0
 <LICENSE-APACHE or
@@ -16640,7 +16610,7 @@ according to those terms.
 
 
 ========================================================================
-AVISO 208
+AVISO 207
 
 Copyright (c) 2019-2020 RustCrypto Developers
 
@@ -16670,7 +16640,7 @@ DEALINGS IN THE SOFTWARE.
 
 
 ========================================================================
-AVISO 209
+AVISO 208
 
 // Copyright 2015-2016 Brian Smith.
 //
@@ -16688,7 +16658,7 @@ AVISO 209
 
 
 ========================================================================
-AVISO 210
+AVISO 209
 
 MIT License
 
@@ -16714,7 +16684,7 @@ SOFTWARE.
 
 
 ========================================================================
-AVISO 211
+AVISO 210
 
 Copyright Mozilla Foundation
 
@@ -16761,7 +16731,7 @@ licensed under the Apache License, Version 2.0 <LICENSE-APACHE> or
 
 
 ========================================================================
-AVISO 212
+AVISO 211
 
 Copyright Mozilla Foundation
 
@@ -16791,7 +16761,7 @@ DEALINGS IN THE SOFTWARE.
 
 
 ========================================================================
-AVISO 213
+AVISO 212
 
 Copyright (c) 2014 The Rust Project Developers
 Copyright (c) 2018 Ashley Mannix, Christopher Armstrong, Dylan DPC, Hunar Roop Kahlon
@@ -16822,7 +16792,7 @@ DEALINGS IN THE SOFTWARE.
 
 
 ========================================================================
-AVISO 214
+AVISO 213
 
                               Apache License
                         Version 2.0, January 2004
@@ -17029,7 +16999,7 @@ limitations under the License.
 
 
 ========================================================================
-AVISO 215
+AVISO 214
 
 Copyright (c) 2017 Jim McGrath
 
@@ -17060,7 +17030,7 @@ DEALINGS IN THE SOFTWARE.
 
 
 ========================================================================
-AVISO 216
+AVISO 215
 
 The MIT License (MIT)
 Copyright (c) 2017-2018 Sergio Benitez
@@ -17084,7 +17054,7 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 
 ========================================================================
-AVISO 217
+AVISO 216
 
 The MIT License (MIT)
 
@@ -17111,7 +17081,7 @@ SOFTWARE.
 
 
 ========================================================================
-AVISO 218
+AVISO 217
 
 Copyright (c) 2018-2019 Sean McArthur
 
@@ -17136,7 +17106,7 @@ THE SOFTWARE.
 
 
 ========================================================================
-AVISO 219
+AVISO 218
 
                                  Apache License
                            Version 2.0, January 2004
@@ -17342,7 +17312,7 @@ AVISO 219
 
 
 ========================================================================
-AVISO 220
+AVISO 219
 
 MIT License
 
@@ -17368,7 +17338,7 @@ SOFTWARE.
 
 
 ========================================================================
-AVISO 221
+AVISO 220
 
 MIT License
 
@@ -17394,7 +17364,7 @@ SOFTWARE.
 
 
 ========================================================================
-AVISO 222
+AVISO 221
 
 MIT License
 
@@ -17420,7 +17390,7 @@ SOFTWARE.
 
 
 ========================================================================
-AVISO 223
+AVISO 222
 
 SPDXVersion: SPDX-2.1
 DataLicense: CC0-1.0
@@ -17444,7 +17414,7 @@ Creator: Person: Daniel Thompson-Yvetot
 
 
 ========================================================================
-AVISO 224
+AVISO 223
 
                                  Apache License
                            Version 2.0, January 2004
@@ -17650,7 +17620,7 @@ AVISO 224
 
 
 ========================================================================
-AVISO 225
+AVISO 224
 
     MIT License
 
@@ -17676,7 +17646,7 @@ AVISO 225
 
 
 ========================================================================
-AVISO 226
+AVISO 225
 
                               Apache License
                         Version 2.0, January 2004
@@ -17882,7 +17852,7 @@ limitations under the License.
 
 
 ========================================================================
-AVISO 227
+AVISO 226
 
 Copyright (c) 2016 keyring Developers
 
@@ -17912,7 +17882,7 @@ DEALINGS IN THE SOFTWARE.
 
 
 ========================================================================
-AVISO 228
+AVISO 227
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
@@ -17935,7 +17905,7 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 
 ========================================================================
-AVISO 229
+AVISO 228
 
 Copyright (c) 2015 Igor Shaula
 
@@ -17959,7 +17929,7 @@ THE SOFTWARE.
 
 
 ========================================================================
-AVISO 230
+AVISO 229
 
 MIT License
 
@@ -17985,7 +17955,7 @@ SOFTWARE.
 
 
 ========================================================================
-AVISO 231
+AVISO 230
 
 SPDXVersion: SPDX-2.1
 DataLicense: CC0-1.0
@@ -18009,7 +17979,7 @@ PackageDownloadLocation: git+ssh://github.com/tauri-apps/wry.git
 Creator: Person: Daniel Thompson-Yvetot
 
 ========================================================================
-AVISO 232
+AVISO 231
 
 Copyright (c) 2019-2026 The RustCrypto Project Developers
 
@@ -18039,7 +18009,7 @@ DEALINGS IN THE SOFTWARE.
 
 
 ========================================================================
-AVISO 233
+AVISO 232
 
 Copyright (c) 2018-2026 The RustCrypto Project Developers
 
@@ -18069,9 +18039,9 @@ DEALINGS IN THE SOFTWARE.
 
 
 ========================================================================
-AVISO 234
+AVISO 233
 
-(C) 2024 Trifecta Tech Foundation 
+(C) 2024 Trifecta Tech Foundation
 
 This software is provided 'as-is', without any express or implied
 warranty. In no event will the authors be held liable for any damages
@@ -18093,7 +18063,7 @@ freely, subject to the following restrictions:
 
 
 ========================================================================
-AVISO 235
+AVISO 234
 
 MIT License
 
@@ -18120,7 +18090,7 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 
 ========================================================================
-AVISO 236
+AVISO 235
 
 MIT License
 
@@ -18146,7 +18116,7 @@ SOFTWARE.
 
 
 ========================================================================
-AVISO 237
+AVISO 236
 
 MIT License
 
@@ -18171,7 +18141,7 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 
 ========================================================================
-AVISO 238
+AVISO 237
 
 MIT License
 
@@ -18197,7 +18167,7 @@ SOFTWARE.
 
 
 ========================================================================
-AVISO 239
+AVISO 238
 
 SPDXVersion: SPDX-2.1
 DataLicense: CC0-1.0
@@ -18222,7 +18192,7 @@ Creator: Person: Daniel Thompson-Yvetot
 
 
 ========================================================================
-AVISO 240
+AVISO 239
 
 The MIT License (MIT)
 
@@ -18248,7 +18218,7 @@ SOFTWARE.
 
 
 ========================================================================
-AVISO 241
+AVISO 240
 
                                  Apache License
                            Version 2.0, January 2004
@@ -18443,7 +18413,7 @@ AVISO 241
 
 
 ========================================================================
-AVISO 242
+AVISO 241
 
 MIT License
 
@@ -18457,7 +18427,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 
 ========================================================================
-AVISO 243
+AVISO 242
 
 Copyright (c) 2013–2025 Denis Pushkarev (zloirock.ru)
 Copyright (c) 2025–2026 CoreJS Company (core-js.io)
@@ -18482,7 +18452,7 @@ THE SOFTWARE.
 
 
 ========================================================================
-AVISO 244
+AVISO 243
 
 Copyright 2010-2023 Mike Bostock
 
@@ -18500,7 +18470,7 @@ THIS SOFTWARE.
 
 
 ========================================================================
-AVISO 245
+AVISO 244
 
 Copyright 2010-2022 Mike Bostock
 
@@ -18518,7 +18488,7 @@ THIS SOFTWARE.
 
 
 ========================================================================
-AVISO 246
+AVISO 245
 
 Copyright 2010-2026 Mike Bostock
 
@@ -18536,7 +18506,7 @@ THIS SOFTWARE.
 
 
 ========================================================================
-AVISO 247
+AVISO 246
 
 Copyright 2010-2021 Mike Bostock
 
@@ -18554,7 +18524,7 @@ THIS SOFTWARE.
 
 
 ========================================================================
-AVISO 248
+AVISO 247
 
 Copyright 2015-2022 Mike Bostock
 
@@ -18572,7 +18542,7 @@ THIS SOFTWARE.
 
 
 ========================================================================
-AVISO 249
+AVISO 248
 
 The MIT Expat Licence.
 
@@ -18600,7 +18570,7 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 
 ========================================================================
-AVISO 250
+AVISO 249
 
 MIT License
 
@@ -18626,7 +18596,7 @@ SOFTWARE.
 
 
 ========================================================================
-AVISO 251
+AVISO 250
 
 es-toolkit
 
@@ -18670,7 +18640,7 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 
 ========================================================================
-AVISO 252
+AVISO 251
 
 The MIT License (MIT)
 
@@ -18696,7 +18666,7 @@ SOFTWARE.
 
 
 ========================================================================
-AVISO 253
+AVISO 252
 
 MIT License
 
@@ -18722,7 +18692,7 @@ SOFTWARE.
 
 
 ========================================================================
-AVISO 254
+AVISO 253
 
 MIT License
 
@@ -18747,7 +18717,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 ========================================================================
-AVISO 255
+AVISO 254
 
 Copyright (c) 2012 Niklas von Hertzen
 
@@ -18773,7 +18743,7 @@ FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 OTHER DEALINGS IN THE SOFTWARE.
 
 ========================================================================
-AVISO 256
+AVISO 255
 
 MIT License
 
@@ -18799,7 +18769,7 @@ SOFTWARE.
 
 
 ========================================================================
-AVISO 257
+AVISO 256
 
 Copyright 2021 Mike Bostock
 
@@ -18817,7 +18787,7 @@ THIS SOFTWARE.
 
 
 ========================================================================
-AVISO 258
+AVISO 257
 
 The MIT License (MIT)
 
@@ -18844,7 +18814,7 @@ SOFTWARE.
 
 
 ========================================================================
-AVISO 259
+AVISO 258
 
 The MIT License (MIT)
 
@@ -18871,7 +18841,7 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 
 ========================================================================
-AVISO 260
+AVISO 259
 
 Copyright
 (c) 2010-2025 James Hall, https://github.com/MrRio/jsPDF
@@ -18898,7 +18868,7 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 
 ========================================================================
-AVISO 261
+AVISO 260
 
 /**
  * @license lucide-react v1.31.0 - ISC
@@ -18920,7 +18890,7 @@ export { __iconNode, Copyright as default };
 
 
 ========================================================================
-AVISO 262
+AVISO 261
 
 ISC License
 
@@ -18968,7 +18938,7 @@ SOFTWARE.
 
 
 ========================================================================
-AVISO 263
+AVISO 262
 
 (The MIT License)
 
@@ -18994,7 +18964,7 @@ THE SOFTWARE.
 
 
 ========================================================================
-AVISO 264
+AVISO 263
 
 Copyright (c) 2013 Braveg1rl
 
@@ -19005,7 +18975,7 @@ The above copyright notice and this permission notice shall be included in all c
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ========================================================================
-AVISO 265
+AVISO 264
 
 Copyright 2013 Chris Dickinson <chris@neversaw.us>
 
@@ -19017,7 +18987,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 
 ========================================================================
-AVISO 266
+AVISO 265
 
 MIT License
 
@@ -19043,7 +19013,7 @@ SOFTWARE.
 
 
 ========================================================================
-AVISO 267
+AVISO 266
 
 The MIT License (MIT)
 
@@ -19069,7 +19039,7 @@ SOFTWARE.
 
 
 ========================================================================
-AVISO 268
+AVISO 267
 
 The MIT License (MIT)
 
@@ -19096,7 +19066,7 @@ SOFTWARE.
 
 
 ========================================================================
-AVISO 269
+AVISO 268
 
 The MIT License (MIT)
 
@@ -19122,7 +19092,7 @@ SOFTWARE.
 
 
 ========================================================================
-AVISO 270
+AVISO 269
 
 The MIT License (MIT)
 
@@ -19148,7 +19118,7 @@ SOFTWARE.
 
 
 ========================================================================
-AVISO 271
+AVISO 270
 
 Copyright (c) 2016 Stoyan Stefanov, http://phpied.com/
 
@@ -19179,7 +19149,7 @@ Please either apply this, the MIT license, or the license in './FEEL-FREE.md'
 
 
 ========================================================================
-AVISO 272
+AVISO 271
 
 MIT License
 
@@ -19205,7 +19175,7 @@ SOFTWARE.
 
 
 ========================================================================
-AVISO 273
+AVISO 272
 
 Copyright (c) 2010 Mario Klingemann
 
@@ -19232,7 +19202,7 @@ OTHER DEALINGS IN THE SOFTWARE.
 
 
 ========================================================================
-AVISO 274
+AVISO 273
 
 The MIT License (MIT)
 Copyright © 2017 Nicolas Froidure
@@ -19257,7 +19227,7 @@ THE SOFTWARE.
 
 
 ========================================================================
-AVISO 275
+AVISO 274
 
 MIT License
 
@@ -19283,7 +19253,7 @@ SOFTWARE.
 
 
 ========================================================================
-AVISO 276
+AVISO 275
 
 MIT License
 
@@ -19309,7 +19279,7 @@ SOFTWARE.
 
 
 ========================================================================
-AVISO 277
+AVISO 276
 
 MIT License
 
@@ -19334,7 +19304,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 ========================================================================
-AVISO 278
+AVISO 277
 
 MIT License
 
@@ -19360,7 +19330,7 @@ SOFTWARE.
 
 
 ========================================================================
-AVISO 279
+AVISO 278
 
 Copyright 2010-2021 Mike Bostock
 Copyright 2001 Robert Penner
@@ -19393,7 +19363,7 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 
 ========================================================================
-AVISO 280
+AVISO 279
 
 Copyright 2015-2021 Mike Bostock
 
@@ -19411,7 +19381,7 @@ THIS SOFTWARE.
 
 
 ========================================================================
-AVISO 281
+AVISO 280
 
 Copyright 2010-2016 Mike Bostock
 All rights reserved.
@@ -19466,7 +19436,7 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 
 ========================================================================
-AVISO 282
+AVISO 281
 
                                  Apache License
                            Version 2.0, January 2004
